@@ -1,0 +1,15 @@
+{
+    "name": "projeto-tcc",
+    "description":"",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        },
+        "files": [
+            "Src/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/router": "1.0.*"
+    }
+}

@@ -1,0 +1,146 @@
+/*corpo*/
+.main {
+  background-color: rgba(139, 193, 195, 0.2);
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+main{
+  position: relative;
+  padding: 50px;
+}
+
+    
+.header {
+  /* background-image: url('../img/medicasa.png'); */
+  /* height: 300px; */
+  padding: 0;
+}
+
+.navigation {
+  padding: 0 40px;
+}
+
+/*corpo*/
+.main {
+  background-color: rgba(139, 193, 195, 0.2);
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  /*RODAPÉ*/
+  .rodape {
+    width: 100%;
+    background-color: #8bc1c3;
+    padding: 10px;
+    color: #ffffff;
+
+  }
+  
+  .rodape-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-flow: column;
+  }
+  
+  .rodape-main .info {
+    width: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+  
+  }
+  
+  .rodape-title {
+    font-size: 0px;
+  }
+  
+  .rodape .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+  
+  .rodape .social-title {
+    font-size: 14px;
+  }
+  
+  .insta {
+    margin-right: 10px;
+  }
+  
+  .bandeiras-container {
+    display: flex;
+    flex-flow: column;
+  }
+  
+  .bandeiras-title {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .bandeiras {
+    width: 50px;
+    height: 30px;
+    background-position: 15px center;
+    float: left;
+  }
+  
+  .bandeiras-imagens {
+    margin-top: 17px;
+  }
+  
+  .bandeiras:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .gmail {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+  }
+  
+  .medi {
+    font-weight: bolder;
+    font-size: 22px;
+  }
+  
+  .ajuda-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ajuda-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .ajuda-link {
+    margin-top: 15px;
+  }
+
+@media(min-width: 790px){
+  .box-info{
+    padding: 5px;
+  }
+}

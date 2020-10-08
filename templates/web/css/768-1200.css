@@ -1,0 +1,123 @@
+@media(min-width: 768px) {
+  .menu-icon-navigation {
+    display: none;
+  }
+
+  .menu-icon-header {
+    display: none;
+  }
+
+  .header {
+    background-image: url('../img/medicasa.png');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .navigation {
+    display: flex;
+    align-items: normal;
+    justify-content: flex-end;
+    padding: 55px 75px 0px 0px;
+  }
+
+  .menu {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    list-style: none;
+  }
+
+  .menu li {
+    font-size: 24px;
+    margin-top: 20px;
+    padding: 10px;
+    color: #FFF;
+  }
+
+  .menu li a {
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: bolder;
+    text-shadow: black 0.1em 0.1em 0.2em
+  }
+
+  .menu li:hover {
+    background-color: #FFF;
+    box-shadow: 0 8px 6px -6px black;
+    color: #8bc1c3;
+  }
+
+
+  .infos {
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    width: 82%; 
+  }
+
+  .info-box{
+    background-color:  #8bc1c3;
+    width: 305px;
+    height: 303px;
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+    border-bottom: black;
+    border-radius: 2%;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+  
+  .info-box-imagem{
+    width: 305px;
+    height: 305px;
+    border-radius: 2%;
+    box-sizing: border-box;
+    left: 20px;
+  }
+
+  /* Rodape */
+  .rodape-title {
+    font-size: 60px;
+  }
+
+  .ajuda-container {
+    align-items: center;
+  }
+
+  .rodape {
+    width: 100%;
+    background-color: #8bc1c3;
+    padding: 10px;
+    color: #ffffff;
+  }
+  
+  .rodape-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-flow: row;
+  }
+  
+  .rodape-main .info {
+    width: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+  
+  }
+  
+  .rodape-title {
+    font-size: 60px;
+  }
+
+  .gmail {
+    float: right;
+  }
+  
+}
