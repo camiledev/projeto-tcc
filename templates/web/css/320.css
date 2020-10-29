@@ -10,7 +10,7 @@ height: 480px;
 }
 
 /*corpo*/
-main{
+.main-home{
 width: 990px;
 height: 75cm;
 background-color: rgba(139, 193, 195, 0.2);
@@ -118,7 +118,7 @@ font-weight: normal;
 
 
 
-/*RODAPÉ*/
+/*RODAPÉ
 #rodape {
   width: 100%;
   height: 200px;
@@ -182,5 +182,142 @@ font-weight: normal;
   position: relative;
   padding-top:0;
 
+}*/
+
+@media (max-width: 335px) {
+  .items__mobile{
+  width: 210px;
+  margin: 0;
+  font-size: 25px;
+  }
 }
+
+/*Conteudo*/
+@media (max-width: 770px) { 
+
+  .items {
+    display: none;
+  }
+
+  .items__mobile{
+    display: flex;
+    flex-flow: column;
+    border: 1px solid #8bc1c3;
+    border-radius: 6px;
+    margin: 0 15px;
+    box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+  }
+
+  .subtitulo__icon{
+    font-size: 30px;
+  }
+
+  .subtitulo__mobile{
+    position: unset !important;
+    top: unset !important;
+    height: 75px;
+    padding: 20px;
+    border-bottom: 1px solid #8bc1c4;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: center;
+  }
+
+  .box-info__mobile {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    position: relative;
+    flex-flow: column;
+    margin: 0 5px;
+    background-color: transparent;
+  }
+
+  .box-info__content--mobile {
+    display: none;
+  }
+
+
+  .box-info__content--mobile[data-open]{
+    width: 100%;
+    height: 310px;
+    background-color: #8bc1c3;
+    display: flex;
+    color: #FFF;
+    padding: 20px;
+  }
+  
+
+  h3 {
+    color: #8bc1c3;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .message {
+    width: 330px;
+    height: 241px;
+    display: block;
+    background-color: #8bc1c3;  
+  }
+
+  main{
+    position: relative;
+  
+  }
+}
+/*
+@media(min-width: 767px) {
+  /* Rodape 
+  .rodape-title {
+      font-size: 60px;
+    }
+  
+    .ajuda-container {
+      align-items: center;
+    }
+  
+    .rodape {
+      width: 100%;
+      background-color: #8bc1c3;
+      padding: 10px;
+      color: #ffffff;
+    }
+    
+    .rodape-main {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 30px;
+      flex-flow: row;
+    }
+    
+    .rodape-main .info {
+      width: 225px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+    
+    .rodape-title {
+      font-size: 60px;
+    }
+  
+    .gmail {
+      float: right;
+    }
+    
+  }
+  
+}
+  
+  
+  */
+  
+
+
+
 

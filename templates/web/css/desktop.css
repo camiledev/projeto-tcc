@@ -12,6 +12,10 @@
     align-items: center;
   }
   
+  a{
+    color: white;
+  }
+
   /*BOTÃO AGENDAMENTO*/
   .botao-agendamento {
     width: 230px;
@@ -19,7 +23,7 @@
     border: 2px solid #ffffff;
     border-radius: 100%;
     background-color: #8bc1c3;
-    top: -40px;
+    top: -80px;
     position: absolute;
     display: flex;
     align-items: center;

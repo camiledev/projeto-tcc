@@ -1,9 +1,9 @@
-var menuIconNavigation = document.querySelector('.menu-icon-navigation');
-var menuIconHeader = document.querySelector('.menu-icon-header');
-var navigationMobile = document.querySelector('.navigation');
+var menuIconNavigation = document.querySelector('.menu-icon-navigation-home');
+var menuIconHeader = document.querySelector('.menu-icon-header-home');
+var navigationMobile = document.querySelector('.navigation-home');
 
-var iconeNav = document.querySelector('.menu-icon-image-nav');
-var iconeHeader = document.querySelector('.menu-icon-image-header');
+var iconeNav = document.querySelector('.menu-icon-image-nav-home');
+var iconeHeader = document.querySelector('.menu-icon-image-header-home');
 
 menuIconNavigation.addEventListener('click', function () {
   navigationMobile.dataset.closed = true;

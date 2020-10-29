@@ -60,7 +60,7 @@
   }
 }
 
-@media(min-width: 768px) {
+/*@media(min-width: 768px) {
   .menu-icon-navigation {
     display: none;
   }
@@ -76,7 +76,7 @@
   }
 
 
-}
+}*/
 
 @media(max-width: 816px) {
   .navigation {
