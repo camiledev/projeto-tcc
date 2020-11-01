@@ -1,16 +1,18 @@
+<style>
+	<?php include 'css/reset.css'; ?>
+	<?php include 'css/menuhamburguerhome.css'; ?>
+	<?php include 'css/768.css'; ?>
+	<?php include 'css/768-1200.css'; ?>
+	<?php include 'css/desktop.css'; ?>
+</style>
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Medicasa</title>
-		<meta charset="UTF-8">
-		<link rel="icon" href="./images/fav.png">
-        <meta name="viewport" content="initial-scale=1.0, width=device-width">
-        <link rel="stylesheet" type="text/css"  href="./css/reset.css" >
-        <link rel="stylesheet" type="text/css"  href="./css/menuhamburguerhome.css">
-        <link rel="stylesheet" type="text/css"  href="./css/768.css">
-        <link rel="stylesheet" type="text/css"  href="./css/768-1200.css">
-        <link rel="stylesheet" type="text/css"  href="./css/desktop.css">
-    </head>
+    	<title>Medicasa</title>
+			<meta charset="UTF-8">
+			<link rel="icon" href="/images/fav.png">
+    	<meta name="viewport" content="initial-scale=1.0, width=device-width">
     </head>
 
     <body>
@@ -26,12 +28,12 @@
 							</ul>
 
 							<div class="menu-icon-navigation-home">
-								<img class="menu-icon-image-nav-home" src="./images/menu2.svg" alt="">
+								<img class="menu-icon-image-nav-home" src="/projeto-tcc/templates/web/images/menu2.svg" alt="">
 							</div>
 					</nav>
 
 					<div class="menu-icon-header-home">
-						<img class="menu-icon-image-header-home" src="./images/menu.svg" alt="">
+						<img class="menu-icon-image-header-home" src="/projeto-tcc/templates/web/images/menu.svg" alt="">
 					</div>
 			</header>
 			<main class="main-home">
@@ -47,7 +49,7 @@
 				<!--CONTEÚDO-->
 				<div class="infos">
 					<div class="info">
-						<img src="images/quemsomos.svg" id="primeira-imagem" class="info-box-imagem" />
+						<img src="/projeto-tcc/templates/web/images/quemsomos.svg" id="primeira-imagem" class="info-box-imagem" />
 						<div class="info-box">
 							<h3 class="box-title"><strong>Como Funciona</strong>  </h3><br><br>
 							<span class="box-description">Para receber o médico no local desejado, 
@@ -56,7 +58,7 @@
 						</div>
 					</div>
 					<div class="info" id="segundo-box">
-						<img src="images/comofunciona.svg" id="segunda-imagem" class="info-box-imagem">
+						<img src="/projeto-tcc/templates/web/images/comofunciona.svg" id="segunda-imagem" class="info-box-imagem">
 						<div class="info-box">
 							<h3 class="box-title"><strong>Quem Somos</strong>  </h3> <br><br>
 							<span class="box-description">Plataforma web para realizar agendamento de
@@ -84,14 +86,14 @@
 						<div class="bandeiras-container">
 							<h6 class="bandeiras-title">BANDEIRAS ACEITAS</h6>
 							<div class="bandeiras-imagens">
-								<img src="images/visa.svg " alt="visa" class="bandeiras">
-								<img src="images/mastercard.svg " alt="mastercard" class="bandeiras">
+								<img src="/projeto-tcc/templates/web/images/visa.svg " alt="visa" class="bandeiras">
+								<img src="/projeto-tcc/templates/web/images/mastercard.svg " alt="mastercard" class="bandeiras">
 							</div>
 						</div>
 		
 						<div class="social">
 							<h6 class="social-title">SOCIAL</h6>
-							<img src="images/instagram.svg " alt="instagram" class="insta">
+							<img src="/projeto-tcc/templates/web/images/instagram.svg " alt="instagram" class="insta">
 						</div>
 					</div>
 				</div>
@@ -102,6 +104,8 @@
 				</div>
 			</footer>
 
-      <script src="./js/menu-hamburguer-home.js"></script>
+      <script>
+				<?php include 'js/menu-hamburguer-home.js'?>
+			</script>
     </body>
 </html>

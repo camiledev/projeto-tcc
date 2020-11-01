@@ -6,7 +6,7 @@
             "Src\\": "src/"
         },
         "files": [
-            "Src/Config.php"
+            "src/Config.php"
         ]
     },
     "require": {

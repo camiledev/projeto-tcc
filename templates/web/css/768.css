@@ -1,6 +1,6 @@
 
 .header-home {
-  background-image: url('../images/medicasa.png');
+  background-image: url('/projeto-tcc/templates/web/images/medicasa.png');
   height: 300px;
   background-size: cover;
   background-position: center;
