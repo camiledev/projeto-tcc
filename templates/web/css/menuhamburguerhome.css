@@ -1,11 +1,9 @@
 @media(max-width: 768px) {
 	.header-home {
 			position: relative;
-			background-color: #8BC1C3;
-			z-index: 1;
 	}
 	
-	.navegation-home {
+	.navigation-home {
 			display: flex;
 			align-items: flex-end;
 			position: relative;
@@ -14,24 +12,26 @@
 			top: -387px;
 			padding: 0px;
 			z-index: 1;
+			
 	}
 	
 	.menu-home {
 			width: 100%;
 			list-style: none;
-			padding: 30px;
+			padding: 5px;
 	}
 	
 	.menu-home li {
 			border-bottom: 2px solid #FFF;
 			width: 100%;
 	}
+
 	.menu-home li a {
 			color: #FFF;
 			text-decoration: none;
 			font-weight: bold;
 			font-size: 24px;
-			line-height: 45px;
+			line-height: 50px;
 	}
 	
 	.menu-icon-navigation-home {
