@@ -1,6 +1,8 @@
 @media(max-width: 768px) {
 	.header-home {
 			position: relative;
+			background-color: #8BC1C3;
+			z-index: 1;
 	}
 	
 	.navegation-home {
@@ -17,6 +19,7 @@
 	.menu-home {
 			width: 100%;
 			list-style: none;
+			padding: 30px;
 	}
 	
 	.menu-home li {
