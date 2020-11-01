@@ -5,7 +5,6 @@ var navigationMobile = document.querySelector('.navigation-home');
 var iconeNav = document.querySelector('.menu-icon-image-nav-home');
 var iconeHeader = document.querySelector('.menu-icon-image-header-home');
 
-navigationMobile.dataset.closed = false;
 
 menuIconNavigation.addEventListener('click', function () {
   navigationMobile.dataset.closed = true;
