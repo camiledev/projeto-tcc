@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0, width=device-width">
 		<link rel="icon" href="./images/fav.png">
@@ -12,16 +12,11 @@
 		<link rel="stylesheet" type="text/css"   href="./css/menuhamburguer.css">
 
 		<link rel="stylesheet" href="./css/all.min.css">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" >
-    
-    <!--<link rel="stylesheet" href="./css/estilo.css" />-->
-    <!--<script src="https://kit.fontawesome.com/223af74c50.js" crossorigin="anonymous"></script>-->
-
-    <title>Trabalhe Conosco</title>
-  </head>
+		<title>Trabalhe conosco</title>
+	</head>
 
   <body>
-      <!--menu-->
+     <!--menu-->
 		<header class="header">					
 			<nav class="navigation">
 					<div class="menu-icon-header">
@@ -30,17 +25,17 @@
 					<h1 class="navigation__title">MediCasa</h1>
 					<div class="navigation__main">
 						<ul class="menu">
-								<li><a href="">HOME</a></li>
+								<li><a href="home.html">HOME</a></li>
 								<li><a href="">PERFIL</a></li>
-								<li><a href="">AJUDA</a></li>
-								<li><a href="">ESPECIALIDADES</a></li>
+								<li><a href="ajuda_default.html">AJUDA</a></li>
+								<li><a href="especialidades.html">ESPECIALIDADES</a></li>
 						</ul>
 						<a href="#">
 							<img src="./images/user.svg" alt="" srcset="">
 						</a>
 					</div>
-			</nav>
-	</header>
+				</nav>
+		</header>
 
     <section class="form-section">
       <h1 style="margin-left: -20px;">Trabalhe conosco</h1>
@@ -61,7 +56,7 @@
           </div>
         </div>
 
-        <div class="form-item">
+        <div class="form-item-finalizar">
           <div>
             <input id="curriculo" type="file" placeholder="Anexe seu curriculo" required/>
             <label for="curriculo" id="curriculoLbl" style="padding: 10px;">Anexe seu curriculo</label>

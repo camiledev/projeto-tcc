@@ -26,17 +26,17 @@
 					<h1 class="navigation__title">MediCasa</h1>
 					<div class="navigation__main">
 						<ul class="menu">
-								<li><a href="">HOME</a></li>
+								<li><a href="home.html">HOME</a></li>
 								<li><a href="">PERFIL</a></li>
-								<li><a href="">AJUDA</a></li>
-								<li><a href="">ESPECIALIDADES</a></li>
+								<li><a href="ajuda_default.html">AJUDA</a></li>
+								<li><a href="especialidades.html">ESPECIALIDADES</a></li>
 						</ul>
 						<a href="#">
 							<img src="./images/user.svg" alt="" srcset="">
 						</a>
 					</div>
-			</nav>
-	</header>
+				</nav>
+		</header>
 
 	<ul class="menu__mobile">
 		<div class="menu-icon-navigation">
