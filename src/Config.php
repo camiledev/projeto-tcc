@@ -3,9 +3,6 @@ if(empty(session_start())){
     session_start();
 }
 
-
-
-
 define("ROOT", "http://localhost/projeto-tcc");
 define("URL_VIEW_ADMIN", "../../templates/admin");
 define("URL_VIEW_WEB", "../../templates/web");

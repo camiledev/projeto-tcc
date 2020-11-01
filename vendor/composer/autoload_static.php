@@ -4,10 +4,10 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit3b30f392761514d3ecd90533e48cb826
+class ComposerStaticInit34f6244f6c5a404e0e010ad900c14681
 {
     public static $files = array (
-        '59105d398b24deba5f2d1aefaac65c5f' => __DIR__ . '/../..' . '/Src/Config.php',
+        '1d2c2853818204a1106033031f521658' => __DIR__ . '/../..' . '/src/Config.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -24,7 +24,7 @@ class ComposerStaticInit3b30f392761514d3ecd90533e48cb826
     public static $prefixDirsPsr4 = array (
         'Src\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/Src',
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'CoffeeCode\\Router\\' => 
         array (
@@ -35,8 +35,8 @@ class ComposerStaticInit3b30f392761514d3ecd90533e48cb826
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit3b30f392761514d3ecd90533e48cb826::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit3b30f392761514d3ecd90533e48cb826::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit34f6244f6c5a404e0e010ad900c14681::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit34f6244f6c5a404e0e010ad900c14681::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

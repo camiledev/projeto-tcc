@@ -8,7 +8,7 @@
   }
 
   .header-home {
-    background-image: url('../images/medicasa.png');
+    background-image: url("/projeto-tcc/templates/web/images/medicasa.png");
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
