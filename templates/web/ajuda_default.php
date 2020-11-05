@@ -4,15 +4,19 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0, width=device-width">
-		<link rel="icon" href="./images/fav.png">
-		<link rel="stylesheet" type="text/css"   href="./css/reset.css" >
-		<link rel="stylesheet" type="text/css"  href="./css/320.css">
-		<link rel="stylesheet" type="text/css"  href="./css/768.css">
-		<link rel="stylesheet" type="text/css"  href="./css/768-1200.css">
-		<link rel="stylesheet" type="text/css"  href="./css/desktop.css">
-		<link rel="stylesheet" type="text/css"   href="./css/menuhamburguer.css">
+		<link rel="icon" href="/projeto-tcc/templates/web/images/fav.png">
 
-		<link rel="stylesheet" href="./css/all.min.css">
+		<!-- <link rel="stylesheet" href="./css/all.min.css"> -->
+
+		<style>
+				<?php include 'css/reset.css'; ?>
+				<?php include 'css/320.css'; ?>
+				<?php include 'css/768.css'; ?>
+				<?php include 'css/768-1200.css'; ?>
+				<?php include 'css/desktop.css'; ?>
+				<?php include 'css/menuhamburguer.css'; ?>
+			</style>
+
 		<title>Duvídas Frequentes</title>
 	</head>
 
@@ -21,18 +25,18 @@
 		<header class="header">					
 			<nav class="navigation">
 					<div class="menu-icon-header">
-						<img class="menu-icon-image-header" src="./images/menu.svg" alt="">
+						<img class="menu-icon-image-header" src="/projeto-tcc/templates/web/images/menu.svg" alt="">
 					</div>
 					<h1 class="navigation__title">MediCasa</h1>
 					<div class="navigation__main">
 						<ul class="menu">
-								<li><a href="home.html">HOME</a></li>
+								<li><a href="<?=url("home")?>">HOME</a></li>
 								<li><a href="">PERFIL</a></li>
 								<li><a href="ajuda_default.html">AJUDA</a></li>
 								<li><a href="especialidades.html">ESPECIALIDADES</a></li>
 						</ul>
 						<a href="#">
-							<img src="./images/user.svg" alt="" srcset="">
+							<img src="/projeto-tcc/templates/web/images/user.svg" alt="" srcset="">
 						</a>
 					</div>
 				</nav>
@@ -40,7 +44,7 @@
 
 	<ul class="menu__mobile">
 		<div class="menu-icon-navigation">
-			<img class="menu-icon-image-nav" src="./images/menu2.svg" alt="">
+			<img class="menu-icon-image-nav" src="/projeto-tcc/templates/web/images/menu2.svg" alt="">
 		</div>
 		<li><a href="">HOME</a></li>
 		<li><a href="">PERFIL</a></li>
@@ -131,14 +135,14 @@
 					<div class="bandeiras-container">
 						<h6 class="bandeiras-title">BANDEIRAS ACEITAS</h6>
 						<div class="bandeiras-imagens">
-							<img src="images/visa.svg " alt="visa" class="bandeiras">
-							<img src="images/mastercard.svg " alt="mastercard" class="bandeiras">
+							<img src="/projeto-tcc/templates/web/images/visa.svg " alt="visa" class="bandeiras">
+							<img src="/projeto-tcc/templates/web/images/mastercard.svg " alt="mastercard" class="bandeiras">
 						</div>
 					</div>
 	
 					<div class="social">
 						<h6 class="social-title">SOCIAL</h6>
-						<img src="images/instagram.svg " alt="instagram" class="insta">
+						<img src="/projeto-tcc/templates/web/images/instagram.svg " alt="instagram" class="insta">
 					</div>
 				</div>
 			</div>
@@ -149,10 +153,11 @@
 			</div>
 		</footer>
 
-		<script src="./js/menu-hamburguer-all.js"></script>
-		<script src="./js/index.js"></script>
-		<script src="./js/accordeon.js"></script>
-		<script src="./js/all.js"></script>
+		<script>
+				<?php include 'js/menu-hamburguer-home.js';?>
+				<?php include 'js/index.js';?>
+				<?php include 'js/accordeon.js';?>
+		</script>
 	</body>
 
 </html>

@@ -18,14 +18,22 @@ $router->group(null);
 $router->get("/", "WebController:home");
 
 $router->group("login");
-$router->get("/", "WebController:formLogin");
+$router->get("/", "WebController:login");
 
-$router->get("/cadastra-se", "WebController:formRegister");
+$router->group("cadastra-se");
+$router->get("/", "WebController:formRegister");
 
-// CLIENT
-$router->group("cliente");
-$router->get("/", "WebController:home");
+$router->group("duvidas");
+$router->get("/", "WebController:questions");
 
+$router->group("home-logado");
+$router->get("/", "WebController:loggedHome");
+
+$router->group("trabalhe-conosco");
+$router->get("/", "WebController:workWithUs");
+
+$router->group("especialidades");
+$router->get("/", "WebController:especialidades");
 
 
 // ADM

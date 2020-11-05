@@ -1,11 +1,3 @@
-<style>
-	<?php include 'css/reset.css'; ?>
-	<?php include 'css/menuhamburguerhome.css'; ?>
-	<?php include 'css/768.css'; ?>
-	<?php include 'css/768-1200.css'; ?>
-	<?php include 'css/desktop.css'; ?>
-</style>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,6 +5,14 @@
 			<meta charset="UTF-8">
 			<link rel="icon" href="/images/fav.png">
     	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+
+			<style>
+				<?php include 'css/reset.css'; ?>
+				<?php include 'css/menuhamburguerhome.css'; ?>
+				<?php include 'css/768.css'; ?>
+				<?php include 'css/768-1200.css'; ?>
+				<?php include 'css/desktop.css'; ?>
+			</style>
     </head>
 
     <body>
@@ -20,11 +20,11 @@
 					
 					<nav class="navigation-home">
 							<ul class="menu-home">
-									<li><a href="login.html">Login / Registre-se</a></li>
-									<li><a href="especialidades.html">Especialidades</a></li>
+									<li><a href="<?=url("login")?>">Login / Registre-se</a></li>
+									<li><a href="<?=url("especialidades")?>">Especialidades</a></li>
 									<li><a href="">Como Funciona</a></li>
 									<li><a href="">Quem Somos</a></li>
-									<li><a href="trabalhe-conosco.html">Trabalhe conosco</a></li>
+									<li><a href="<?=url("trabalhe-conosco")?>">Trabalhe conosco</a></li>
 							</ul>
 
 							<div class="menu-icon-navigation-home">
@@ -79,7 +79,7 @@
 	
 					<div class="ajuda-container">
 						<h6 class="ajuda-title">AJUDA</h6>
-						<span class="ajuda-link"><a href="ajuda_default.html">Dúvidas frequentes</a></span>
+						<span class="ajuda-link"><a href="<?=url("duvidas")?>">Dúvidas frequentes</a></span>
 					</div>
 
 					<div class="info">

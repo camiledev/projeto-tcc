@@ -21,4 +21,3 @@ menuIconHeader.addEventListener('click', function() {
   iconeHeader.dataset.closed = true;
   menuIconHeader.dataset.closed = true;
 });
-

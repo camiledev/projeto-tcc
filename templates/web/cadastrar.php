@@ -5,27 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     
-    <link rel="stylesheet" href="css/estilo.css" />
     <script src="https://kit.fontawesome.com/223af74c50.js" crossorigin="anonymous"></script>
+
+    <style>
+      <?php include 'css/reset.css'; ?>
+      <?php include 'css/estilo.css'; ?>
+      <?php include 'css/320.css'; ?>
+      <?php include 'css/768.css'; ?>
+      <?php include 'css/768-1200.css'; ?>
+      <?php include 'css/desktop.css'; ?>
+      <?php include 'css/menuhamburguer.css'; ?>
+    </style>
 
     <title>Cadastrar</title>
   </head>
 
   <body>
-    <nav class="menu">
-      <img src="images/user.svg"/>
-      <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo">MediCasa</label>
-      <ul>
-        <li><a href="home.php">Home</a></li>
-        <li><a href="#">Perfil</a></li>
-        <li><a href="#">Ajuda</a></li>
-        <li><a href="especialidades.html">Especialidades</a></li>
-      </ul>
-    </nav>
+  <header class="header">					
+			<nav class="navigation">
+					<div class="menu-icon-header">
+						<img class="menu-icon-image-header" src="/projeto-tcc/templates/web/images/menu.svg" alt="">
+					</div>
+					<h1 class="navigation__title">MediCasa</h1>
+					<div class="navigation__main">
+						<ul class="menu">
+								<li><a href="home.html">HOME</a></li>
+								<li><a href="">PERFIL</a></li>
+								<li><a href="ajuda_default.html">AJUDA</a></li>
+								<li><a href="especialidades.html">ESPECIALIDADES</a></li>
+						</ul>
+						<a href="#">
+							<img src="/projeto-tcc/templates/web/images/user.svg" alt="" srcset="">
+						</a>
+					</div>
+				</nav>
+		</header>
     <section class="form-section">
 
       <h1>Cadastrar</h1>
@@ -98,13 +112,13 @@
         <p id="email">medicasacontato@gmail.com</p>
         <p class="duv-footer">Dúvidas frequentes</p>
         <img class="card"
-          src="images/mastercard.svg"
+          src="/projeto-tcc/templates/web/images/mastercard.svg"
         />
         <img class="card"
-          src="images/visa.svg"
+          src="/projeto-tcc/templates/web/images/visa.svg"
         />
         <img style="margin-right: 5vw;"
-          src="images/instagram.svg"
+          src="/projeto-tcc/templates/web/images/instagram.svg"
         />
       </div>
       <p>MediCasa &copy</p>
@@ -112,5 +126,8 @@
     </footer>
 
     <script src="js/index.js"></script>
+    <script>
+				<?php include 'js/menu-hamburguer-home.js'?>
+		</script>
   </body>
 </html>

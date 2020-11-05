@@ -1,9 +1,47 @@
+<?php
+ 
+    $connect = mysqli_connect('localhost','root','');
+ 
+    $db = mysqli_select_db($connect, 'medicasa');
+ 
+    if (isset( $_POST['login']))
+    {
+ 
+        $email  = $_POST['email_usu'];    
+        $senha = $_POST['senha_usu'];
+ 
+       $verifica = ("SELECT * FROM acesso where email_usu = '$email' and senha = '$senha_usu'");
+ 
+       $res = mysql_query($verifica);
+ 
+       if (mysql_num_rows ( $res ) !=1)
+      {
+                   echo "<script language='javascript' type='text/javascript'>
+                                   alert('Login e/ou senha incorretos');
+                         window.location.href='cadastrar.php';</script>";
+                    die();
+                }
+ 
+                else{
+                   header("Location:home-logado.html");
+             }
+              }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/223af74c50.js" crossorigin="anonymous"></script>
+
+  <style>
+      <?php include 'css/reset.css'; ?>
+      <?php include 'css/menuhamburguerhome.css'; ?>
+      <?php include 'css/estilo.css'; ?>
+      <?php include 'css/768.css'; ?>
+      <?php include 'css/768-1200.css'; ?>
+      <?php include 'css/desktop.css'; ?>
+	</style>
   <link rel="stylesheet" href="css/estilo.css" />
 
   <title>Login</title>
@@ -16,7 +54,7 @@
 </style>-->
 <body>
   <section>
-    <form action="" class="logSection">
+    <form action="POST" class="logSection">
       <div>
         <h1>MediCasa</h1>
   
@@ -46,9 +84,9 @@
           </div>
           <div>
             <a href="">Esqueceu a senha?</a>
-            <button onclick="window.location.href = 'home-logado.php'">Entrar</button> 
+            <a href="<?=url("home-logado")?>" class="general-button">Entrar</button> 
 
-            <a href="cadastrar.html">Não possui uma conta? Registre-se</a>
+            <a href="<?=url("cadastra-se")?>">Não possui uma conta? Registre-se</a>
           </div>
         </div>
       </div>

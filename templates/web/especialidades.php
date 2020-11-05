@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     
-    <link rel="stylesheet" href="./css/estilo.css" />
+    <style>
+				<?php include 'css/reset.css'; ?>
+				<?php include 'css/menuhamburguer.css'; ?>
+				<?php include 'css/768.css'; ?>
+				<?php include 'css/768-1200.css'; ?>
+				<?php include 'css/desktop.css'; ?>
+				<?php include 'css/estilo.css'; ?>
+    </style>
+    
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     
     <title>Especialidades</title>
@@ -13,7 +21,6 @@
 
   <body>
     <nav class="menu">
-      <img src="images/user.svg"/>
       <input type="checkbox" id="check" />
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
@@ -25,6 +32,8 @@
         <li><a href="#">Ajuda</a></li>
         <li><a href="especialidades.html">Especialidades</a></li>
       </ul>
+      <img src="/projeto-tcc/templates/web/images/user.svg"/>
+
     </nav>
 
     <section class="section-box">
@@ -37,7 +46,7 @@
           consulta, feito na unidade de atendimento!
         </p>
       </div>
-      <ul class="grid">
+      <ul class="grid especialidades-grid">
         <li>
           <div class="box">
             <h2>Cardiologia</h2>
@@ -260,13 +269,13 @@
         <p id="email">medicasacontato@gmail.com</p>
         <p class="duv-footer">Dúvidas frequentes</p>
         <img class="card"
-          src="images/mastercard.svg"
+          src="/projeto-tcc/templates/web/images/mastercard.svg"
         />
         <img class="card"
-          src="images/visa.svg"
+          src="/projeto-tcc/templates/web/images/visa.svg"
         />
         <img style="margin-right: 5vw;"
-          src="images/instagram.svg"
+          src="/projeto-tcc/templates/web/images/instagram.svg"
         />
       </div>
       <p>MediCasa &copy</p>

@@ -21,7 +21,7 @@ footer {
   padding: 20px;
   padding-bottom: 30px;
   position: absolute;
-  bottom: -130px;
+  /* bottom: -130px; */
 }
 
 footer img {
@@ -130,6 +130,17 @@ footer > div > div{
 }
 
  button{
+  padding: 10px 50px 10px;
+  margin: 25px 140px 0 auto;
+  background: white;
+  border: 2px solid #8BC1C3;
+  color: #8BC1C3;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}/*.form-group > input */
+
+.general-button{
   padding: 10px 50px 10px;
   margin: 25px 140px 0 auto;
   background: white;
@@ -454,4 +465,10 @@ label.logo {
   .logSection > div:nth-child(2) {
     margin-left: 0;
   }
+}
+
+
+.especialidades-grid {
+  margin-top: 35px;
+  padding: 0 20px;
 }

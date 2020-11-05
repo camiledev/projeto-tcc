@@ -18,11 +18,11 @@ class WebController {
         }
     }
 
-        public function formLogin(): void{
+        public function login(): void{
             try{
     
                 $toView = new ToView(URL_VIEW_WEB);
-                $toView ->viewStandard('form-login');
+                $toView ->viewStandard('login-teste');
     
     
             } catch(\Exception $exception){
@@ -34,7 +34,58 @@ class WebController {
             try{
     
                 $toView = new ToView(URL_VIEW_WEB);
-                $toView ->viewStandard('form-cadastro');
+                $toView ->viewStandard('cadastrar');
+    
+    
+            } catch(\Exception $exception){
+    
+            }
+        }
+
+        public function questions(): void{
+            try{
+    
+                $toView = new ToView(URL_VIEW_WEB);
+                $toView ->viewStandard('ajuda_default');
+    
+    
+            } catch(\Exception $exception){
+    
+            }
+        }
+
+
+        public function loggedHome(): void{
+            try{
+    
+                $toView = new ToView(URL_VIEW_WEB);
+                $toView ->viewStandard('home-logado');
+    
+    
+            } catch(\Exception $exception){
+    
+            }
+        }
+
+
+        public function workWithUs(): void{
+            try{
+    
+                $toView = new ToView(URL_VIEW_WEB);
+                $toView ->viewStandard('trabalhe-conosco');
+    
+    
+            } catch(\Exception $exception){
+    
+            }
+        }
+
+
+        public function especialidades(): void{
+            try{
+    
+                $toView = new ToView(URL_VIEW_WEB);
+                $toView ->viewStandard('especialidades');
     
     
             } catch(\Exception $exception){

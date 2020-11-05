@@ -1,39 +1,11 @@
-<?php
- 
-    $connect = mysql_connect('localhost','root','');
- 
-    $db = mysql_select_db('medicasa');
- 
-    if (isset( $_POST['login']))
-    {
- 
-        $email  = $_POST['email_usu'];    
-        $senha = $_POST['senha_usu'];
- 
-       $verifica = ("SELECT * FROM acesso where email_usu = '$email' and senha = '$senha_usu'");
- 
-       $res = mysql_query($verifica);
- 
-       if (mysql_num_rows ( $res ) !=1)
-      {
-                   echo "<script language='javascript' type='text/javascript'>
-                                   alert('Login e/ou senha incorretos');
-                         window.location.href='cadastro.php';</script>";
-                    die();
-                }
- 
-                else{
-                   header("Location:home-logado.html");
-             }
-              }
-?>
+
 <!DOCTYPE html>
               <html lang="en">
               <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <script src="https://kit.fontawesome.com/223af74c50.js" crossorigin="anonymous"></script>
-                <link rel="stylesheet" href="css/estilo.css" />
+                <link rel="stylesheet" href="./css/estilo.css"/>
               
                 <title>Login</title>
               </head>
