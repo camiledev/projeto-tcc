@@ -102,7 +102,7 @@
 }
 
 .rodape-main .info {
-  width: 225px;
+  /* width: 225px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -244,7 +244,7 @@ main{
   }
   
   .rodape-main .info {
-    width: 225px;
+    /* width: 225px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
