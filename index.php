@@ -35,6 +35,9 @@ $router->get("/", "WebController:workWithUs");
 $router->group("especialidades");
 $router->get("/", "WebController:especialidades");
 
+$router->group("perfcli");
+$router->get("/", "WebController:perfcli");
+
 
 // ADM
 $router->group("admin");

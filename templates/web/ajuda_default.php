@@ -30,10 +30,10 @@
 					<h1 class="navigation__title">MediCasa</h1>
 					<div class="navigation__main">
 						<ul class="menu">
-								<li><a href="<?=url("home")?>">HOME</a></li>
-								<li><a href="">PERFIL</a></li>
-								<li><a href="ajuda_default.html">AJUDA</a></li>
-								<li><a href="especialidades.html">ESPECIALIDADES</a></li>
+								<li><a href="<?=url("")?>">HOME</a></li>
+								<li><a href="<?=url("perfcli")?>">PERFIL</a></li>
+								<li><a href="<?=url("duvidas")?>">AJUDA</a></li>
+								<li><a href="<?=url("especialidades")?>">ESPECIALIDADES</a></li>
 						</ul>
 						<a href="#">
 							<img src="/projeto-tcc/templates/web/images/user.svg" alt="" srcset="">

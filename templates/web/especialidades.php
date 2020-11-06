@@ -21,25 +21,26 @@
   </head>
 
   <body>
-    <header class="header">					
-      <nav class="navigation">
-          <div class="menu-icon-header">
-            <img class="menu-icon-image-header" src="/projeto-tcc/templates/web/images/menu.svg" alt="">
-          </div>
-          <h1 class="navigation__title">MediCasa</h1>
-          <div class="navigation__main">
-            <ul class="menu">
-                <li><a href="">HOME</a></li>
-                <li><a href="">PERFIL</a></li>
-                <li><a href="#">AJUDA</a></li>
-                <li><a href="#">ESPECIALIDADES</a></li>
-            </ul>
-            <a href="#" class="d-none d-md-block">
-              <img src="/projeto-tcc/templates/web/images/user.svg" alt="" srcset="">
-            </a>
-          </div>
-      </nav>
-  </header>
+    <!--menu-->
+		<header class="header">					
+			<nav class="navigation">
+					<div class="menu-icon-header">
+						<img class="menu-icon-image-header" src="/projeto-tcc/templates/web/images/menu.svg" alt="">
+					</div>
+					<h1 class="navigation__title">MediCasa</h1>
+					<div class="navigation__main">
+						<ul class="menu">
+								<li><a href="<?=url("")?>">HOME</a></li>
+								<li><a href="<?=url("perfcli")?>">PERFIL</a></li>
+								<li><a href="<?=url("duvidas")?>">AJUDA</a></li>
+								<li><a href="<?=url("especialidades")?>">ESPECIALIDADES</a></li>
+						</ul>
+						<a href="#">
+							<img src="/projeto-tcc/templates/web/images/user.svg" alt="" srcset="">
+						</a>
+					</div>
+				</nav>
+		</header>
 
   <ul class="menu__mobile">
     <div class="menu-icon-navigation">
@@ -278,42 +279,41 @@
       </ul>
     </section>
     
-    	<!--RODAPÉ-->
-			<footer class="rodape">
-				<span class="gmail">medicasacontato@gmail.com</span>
-			
-				<div class="rodape-main">
-					<h3 class="rodape-title">mediCasa</h3>
-	
-					<div class="ajuda-container">
-						<h6 class="ajuda-title">AJUDA</h6>
-						<span class="ajuda-link"><a href="<?=url("duvidas")?>">Dúvidas frequentes</a></span>
-					</div>
-
-					<div class="info">
-						<div class="bandeiras-container">
-							<h6 class="bandeiras-title">BANDEIRAS ACEITAS</h6>
-							<div class="bandeiras-imagens">
-								<img src="/projeto-tcc/templates/web/images/visa.svg " alt="visa" class="bandeiras">
-								<img src="/projeto-tcc/templates/web/images/mastercard.svg " alt="mastercard" class="bandeiras">
-							</div>
-						</div>
+		<!--RODAPÉ-->
+		<footer class="rodape">
+			<span class="gmail">medicasacontato@gmail.com</span>
 		
-						<div class="social">
-							<h6 class="social-title">SOCIAL</h6>
-							<img src="/projeto-tcc/templates/web/images/instagram.svg " alt="instagram" class="insta">
+			<div class="rodape-main">
+				<h3 class="rodape-title">mediCasa</h3>
+
+				<div class="ajuda-container">
+					<h6 class="ajuda-title">AJUDA</h6>
+					<span class="ajuda-link"><a href="<?=url("duvidas")?>">Dúvidas frequentes</a></span>
+				</div>
+
+				<div class="info">
+					<div class="bandeiras-container">
+						<h6 class="bandeiras-title">BANDEIRAS ACEITAS</h6>
+						<div class="bandeiras-imagens">
+							<img src="/projeto-tcc/templates/web/images/visa.svg " alt="visa" class="bandeiras">
+							<img src="/projeto-tcc/templates/web/images/mastercard.svg " alt="mastercard" class="bandeiras">
 						</div>
 					</div>
+
+					<div class="social">
+						<h6 class="social-title">SOCIAL</h6>
+						<img src="/projeto-tcc/templates/web/images/instagram.svg " alt="instagram" class="insta">
+					</div>
 				</div>
+			</div>
 
-				<div class="copyright">
-					<span class="medi">MediCasa©</span>
-					<span class="direitos">Todos direitos Reservados 2019</span>
-				</div>
-			</footer>
+			<div class="copyright">
+				<span class="medi">MediCasa©</span>
+				<span class="direitos">Todos direitos Reservados 2019</span>
+			</div>
+		</footer>
 
-
-      <script>
+		<script>
 				<?php include 'js/menu-hamburguer-all.js';?>
 				<?php include 'js/index.js';?>
 				<?php include 'js/accordeon.js';?>

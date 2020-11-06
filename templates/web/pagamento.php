@@ -128,23 +128,38 @@
       </div>
     </section>
     
-    <footer>
-      <div class="social">
-        <p class="logo-footer">MediCasa</p>
-        <p id="email">medicasacontato@gmail.com</p>
-        <p class="duv-footer">Dúvidas frequentes</p>
-        <img class="card"
-          src="images/mastercard.svg"
-        />
-        <img class="card"
-          src="images/visa.svg"
-        />
-        <img style="margin-right: 5vw;"
-          src="images/instagram.svg"
-        />
-      </div>
-      <p>MediCasa &copy</p>
-      <p>Todos direitos reservados 2020</p>
-    </footer>
+		<!--RODAPÉ-->
+		<footer class="rodape">
+			<span class="gmail">medicasacontato@gmail.com</span>
+		
+			<div class="rodape-main">
+				<h3 class="rodape-title">mediCasa</h3>
+
+				<div class="ajuda-container">
+					<h6 class="ajuda-title">AJUDA</h6>
+					<span class="ajuda-link"><a href="<?=url("duvidas")?>">Dúvidas frequentes</a></span>
+				</div>
+
+				<div class="info">
+					<div class="bandeiras-container">
+						<h6 class="bandeiras-title">BANDEIRAS ACEITAS</h6>
+						<div class="bandeiras-imagens">
+							<img src="/projeto-tcc/templates/web/images/visa.svg " alt="visa" class="bandeiras">
+							<img src="/projeto-tcc/templates/web/images/mastercard.svg " alt="mastercard" class="bandeiras">
+						</div>
+					</div>
+
+					<div class="social">
+						<h6 class="social-title">SOCIAL</h6>
+						<img src="/projeto-tcc/templates/web/images/instagram.svg " alt="instagram" class="insta">
+					</div>
+				</div>
+			</div>
+
+			<div class="copyright">
+				<span class="medi">MediCasa©</span>
+				<span class="direitos">Todos direitos Reservados 2019</span>
+			</div>
+		</footer>
   </body>
 </html>

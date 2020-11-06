@@ -54,6 +54,18 @@ class WebController {
             }
         }
 
+        public function perfcli(): void{
+            try{
+    
+                $toView = new ToView(URL_VIEW_WEB);
+                $toView ->viewStandard('usuario');
+    
+    
+            } catch(\Exception $exception){
+    
+            }
+        }
+
 
         public function loggedHome(): void{
             try{

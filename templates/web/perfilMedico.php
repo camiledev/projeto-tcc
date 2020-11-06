@@ -103,39 +103,39 @@
                 </div>
      
 
-        <!--RODAPÉ-->
-        <footer class="rodape">
-            <span class="gmail">medicasacontato@gmail.com</span>
-        
-            <div class="rodape-main">
-                <h3 class="rodape-title">mediCasa</h3>
+		<!--RODAPÉ-->
+		<footer class="rodape">
+			<span class="gmail">medicasacontato@gmail.com</span>
+		
+			<div class="rodape-main">
+				<h3 class="rodape-title">mediCasa</h3>
 
-                <div class="ajuda-container">
-                    <h6 class="ajuda-title">AJUDA</h6>
-                    <span class="ajuda-link"><a href="<?=url("duvidas")?>">Dúvidas frequentes</a></span>
-                </div>
+				<div class="ajuda-container">
+					<h6 class="ajuda-title">AJUDA</h6>
+					<span class="ajuda-link"><a href="<?=url("duvidas")?>">Dúvidas frequentes</a></span>
+				</div>
 
-                <div class="info">
-                    <div class="bandeiras-container">
-                        <h6 class="bandeiras-title">BANDEIRAS ACEITAS</h6>
-                        <div class="bandeiras-imagens">
-                            <img src="/projeto-tcc/templates/web/images/visa.svg " alt="visa" class="bandeiras">
-                            <img src="/projeto-tcc/templates/web/images/mastercard.svg " alt="mastercard" class="bandeiras">
-                        </div>
-                    </div>
-    
-                    <div class="social">
-                        <h6 class="social-title">SOCIAL</h6>
-                        <img src="/projeto-tcc/templates/web/images/instagram.svg " alt="instagram" class="insta">
-                    </div>
-                </div>
-            </div>
+				<div class="info">
+					<div class="bandeiras-container">
+						<h6 class="bandeiras-title">BANDEIRAS ACEITAS</h6>
+						<div class="bandeiras-imagens">
+							<img src="/projeto-tcc/templates/web/images/visa.svg " alt="visa" class="bandeiras">
+							<img src="/projeto-tcc/templates/web/images/mastercard.svg " alt="mastercard" class="bandeiras">
+						</div>
+					</div>
 
-            <div class="copyright">
-                <span class="medi">MediCasa©</span>
-                <span class="direitos">Todos direitos Reservados 2019</span>
-            </div>
-        </footer>
+					<div class="social">
+						<h6 class="social-title">SOCIAL</h6>
+						<img src="/projeto-tcc/templates/web/images/instagram.svg " alt="instagram" class="insta">
+					</div>
+				</div>
+			</div>
+
+			<div class="copyright">
+				<span class="medi">MediCasa©</span>
+				<span class="direitos">Todos direitos Reservados 2019</span>
+			</div>
+		</footer>
         <script>
             <?php include 'js/menu-hamburguer-all.js';?>
             <?php include 'js/index.js';?>

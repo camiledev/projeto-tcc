@@ -19,8 +19,8 @@
 	</head>
 
   <body>
-     <!--menu-->
-		<header class="header">					
+  		<!--menu-->
+		  <header class="header">					
 			<nav class="navigation">
 					<div class="menu-icon-header">
 						<img class="menu-icon-image-header" src="/projeto-tcc/templates/web/images/menu.svg" alt="">
@@ -28,10 +28,10 @@
 					<h1 class="navigation__title">MediCasa</h1>
 					<div class="navigation__main">
 						<ul class="menu">
-								<li><a href="home.html">HOME</a></li>
-								<li><a href="">PERFIL</a></li>
-								<li><a href="ajuda_default.html">AJUDA</a></li>
-								<li><a href="especialidades.html">ESPECIALIDADES</a></li>
+								<li><a href="<?=url("")?>">HOME</a></li>
+								<li><a href="<?=url("perfcli")?>">PERFIL</a></li>
+								<li><a href="<?=url("duvidas")?>">AJUDA</a></li>
+								<li><a href="<?=url("especialidades")?>">ESPECIALIDADES</a></li>
 						</ul>
 						<a href="#">
 							<img src="/projeto-tcc/templates/web/images/user.svg" alt="" srcset="">
@@ -80,7 +80,7 @@
 
 				<div class="ajuda-container">
 					<h6 class="ajuda-title">AJUDA</h6>
-					<span class="ajuda-link">Dúvidas frequentes</span>
+					<span class="ajuda-link"><a href="<?=url("duvidas")?>">Dúvidas frequentes</a></span>
 				</div>
 
 				<div class="info">
@@ -91,7 +91,7 @@
 							<img src="/projeto-tcc/templates/web/images/mastercard.svg " alt="mastercard" class="bandeiras">
 						</div>
 					</div>
-	
+
 					<div class="social">
 						<h6 class="social-title">SOCIAL</h6>
 						<img src="/projeto-tcc/templates/web/images/instagram.svg " alt="instagram" class="insta">
@@ -103,7 +103,7 @@
 				<span class="medi">MediCasa©</span>
 				<span class="direitos">Todos direitos Reservados 2019</span>
 			</div>
-		</footer>   
+		</footer>  
 
 		<script src="./js/menu-hamburguer-all.js"></script>
 		<script src="./js/index.js"></script>

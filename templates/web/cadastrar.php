@@ -21,6 +21,7 @@
   </head>
 
   <body>
+  <!--menu-->
   <header class="header">					
 			<nav class="navigation">
 					<div class="menu-icon-header">
@@ -29,10 +30,10 @@
 					<h1 class="navigation__title">MediCasa</h1>
 					<div class="navigation__main">
 						<ul class="menu">
-								<li><a href="home.html">HOME</a></li>
-								<li><a href="">PERFIL</a></li>
-								<li><a href="ajuda_default.html">AJUDA</a></li>
-								<li><a href="especialidades.html">ESPECIALIDADES</a></li>
+								<li><a href="<?=url("")?>">HOME</a></li>
+								<li><a href="<?=url("perfcli")?>">PERFIL</a></li>
+								<li><a href="<?=url("duvidas")?>">AJUDA</a></li>
+								<li><a href="<?=url("especialidades")?>">ESPECIALIDADES</a></li>
 						</ul>
 						<a href="#">
 							<img src="/projeto-tcc/templates/web/images/user.svg" alt="" srcset="">
@@ -106,28 +107,44 @@
       </form>
     </section>
     
-    <footer>
-      <div class="social">
-        <p class="logo-footer">MediCasa</p>
-        <p id="email">medicasacontato@gmail.com</p>
-        <p class="duv-footer">Dúvidas frequentes</p>
-        <img class="card"
-          src="/projeto-tcc/templates/web/images/mastercard.svg"
-        />
-        <img class="card"
-          src="/projeto-tcc/templates/web/images/visa.svg"
-        />
-        <img style="margin-right: 5vw;"
-          src="/projeto-tcc/templates/web/images/instagram.svg"
-        />
-      </div>
-      <p>MediCasa &copy</p>
-      <p>Todos direitos reservados 2020</p>
-    </footer>
+		<!--RODAPÉ-->
+		<footer class="rodape">
+			<span class="gmail">medicasacontato@gmail.com</span>
+		
+			<div class="rodape-main">
+				<h3 class="rodape-title">mediCasa</h3>
 
-    <script src="js/index.js"></script>
-    <script>
-				<?php include 'js/menu-hamburguer-home.js'?>
+				<div class="ajuda-container">
+					<h6 class="ajuda-title">AJUDA</h6>
+					<span class="ajuda-link"><a href="<?=url("duvidas")?>">Dúvidas frequentes</a></span>
+				</div>
+
+				<div class="info">
+					<div class="bandeiras-container">
+						<h6 class="bandeiras-title">BANDEIRAS ACEITAS</h6>
+						<div class="bandeiras-imagens">
+							<img src="/projeto-tcc/templates/web/images/visa.svg " alt="visa" class="bandeiras">
+							<img src="/projeto-tcc/templates/web/images/mastercard.svg " alt="mastercard" class="bandeiras">
+						</div>
+					</div>
+
+					<div class="social">
+						<h6 class="social-title">SOCIAL</h6>
+						<img src="/projeto-tcc/templates/web/images/instagram.svg " alt="instagram" class="insta">
+					</div>
+				</div>
+			</div>
+
+			<div class="copyright">
+				<span class="medi">MediCasa©</span>
+				<span class="direitos">Todos direitos Reservados 2019</span>
+			</div>
+		</footer>
+
+		<script>
+				<?php include 'js/menu-hamburguer-all.js';?>
+				<?php include 'js/index.js';?>
+				<?php include 'js/accordeon.js';?>
 		</script>
   </body>
 </html>

@@ -16,25 +16,25 @@
     </head>
 
     <body>
-			<header class="header-home">            
-					
-					<nav class="navigation-home">
-							<ul class="menu-home">
-									<li><a href="<?=url("login")?>">Perfil</a></li>
-									<li><a href="<?=url("especialidades")?>">Especialidades</a></li>
-									<li><a href="">Como Funciona</a></li>relative
-									<li><a href="">Quem Somos</a></li>
-							</ul>
+		<header class="header-home">            
+				
+				<nav class="navigation-home">
+						<ul class="menu-home">
+								<li><a href="<?=url("perfcli")?>">Perfil</a></li>
+								<li><a href="<?=url("especialidades")?>">Especialidades</a></li>
+								<li><a href="">Como Funciona</a></li>
+								<li><a href="">Quem Somos</a></li>
+						</ul>
 
-							<div class="menu-icon-navigation-home">
-								<img class="menu-icon-image-nav-home" src="/projeto-tcc/templates/web/images/menu2.svg" alt="">
-							</div>
-					</nav>
+						<div class="menu-icon-navigation-home">
+							<img class="menu-icon-image-nav-home" src="/projeto-tcc/templates/web/images/menu2.svg" alt="">
+						</div>
+				</nav>
 
-					<div class="menu-icon-header-home">
-						<img class="menu-icon-image-header-home" src="/projeto-tcc/templates/web/images/menu.svg" alt="">
-					</div>
-			</header>
+				<div class="menu-icon-header-home">
+					<img class="menu-icon-image-header-home" src="/projeto-tcc/templates/web/images/menu.svg" alt="">
+				</div>
+		</header>
 			<main class="main-home">
 				<!-- <img src="img/medicasa.png" class="banner" alt="fundo" /> -->
 				
