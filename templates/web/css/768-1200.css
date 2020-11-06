@@ -83,8 +83,9 @@
   }
 
   /* Rodape */
+  
   .rodape-title {
-    font-size: 60px;
+    font-size: 45px;
   }
 
   .ajuda-container {
@@ -102,7 +103,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 20px;
     flex-flow: row;
   }
   
@@ -116,7 +117,7 @@
   }
   
   .rodape-title {
-    font-size: 60px;
+    font-size: 45px;
   }
 
   .gmail {
@@ -286,7 +287,7 @@
 
  /* Rodape */
  .rodape-title {
-  font-size: 60px;
+  font-size: 45px;
 }
 
 .ajuda-container {
@@ -305,7 +306,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 20px;
   flex-flow: row;
 }
 
@@ -319,12 +320,13 @@
 }
 
 .rodape-title {
-  font-size: 60px;
+  font-size: 45px;
 }
 
 .gmail {
   float: right;
 }
+
 
 }
 
@@ -334,13 +336,14 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  color: white;
 }
 
 body {
   font-family: "Arial", sans-serif;
   color: #8BC1C3;
 }
-
+/*
 footer {
   background: #8BC1C3;
   width: 100%;
