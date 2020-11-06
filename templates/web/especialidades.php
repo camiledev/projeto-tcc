@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="./images/fav.png">
+    <meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, width=device-width">
+		<link rel="icon" href="/projeto-tcc/templates/web/images/fav.png">
     
     <style>
 				<?php include 'css/reset.css'; ?>
@@ -279,45 +278,45 @@
       </ul>
     </section>
     
-    	<!--RODAPÉ-->
-		<footer class="rodape">
-			<span class="gmail">medicasacontato@gmail.com</span>
+    			<!--RODAPÉ-->
+			<footer class="rodape">
+				<span class="gmail">medicasacontato@gmail.com</span>
+			
+				<div class="rodape-main">
+					<h3 class="rodape-title">mediCasa</h3>
+	
+					<div class="ajuda-container">
+						<h6 class="ajuda-title">AJUDA</h6>
+						<span class="ajuda-link"><a href="<?=url("duvidas")?>">Dúvidas frequentes</a></span>
+					</div>
+
+					<div class="info">
+						<div class="bandeiras-container">
+							<h6 class="bandeiras-title">BANDEIRAS ACEITAS</h6>
+							<div class="bandeiras-imagens">
+								<img src="/projeto-tcc/templates/web/images/visa.svg " alt="visa" class="bandeiras">
+								<img src="/projeto-tcc/templates/web/images/mastercard.svg " alt="mastercard" class="bandeiras">
+							</div>
+						</div>
 		
-			<div class="rodape-main">
-				<h3 class="rodape-title">mediCasa</h3>
-
-				<div class="ajuda-container">
-					<h6 class="ajuda-title">AJUDA</h6>
-					<span class="ajuda-link">Dúvidas frequentes</span>
-				</div>
-
-				<div class="info">
-					<div class="bandeiras-container">
-						<h6 class="bandeiras-title">BANDEIRAS ACEITAS</h6>
-						<div class="bandeiras-imagens">
-							<img src="images/visa.svg " alt="visa" class="bandeiras">
-							<img src="images/mastercard.svg " alt="mastercard" class="bandeiras">
+						<div class="social">
+							<h6 class="social-title">SOCIAL</h6>
+							<img src="/projeto-tcc/templates/web/images/instagram.svg " alt="instagram" class="insta">
 						</div>
 					</div>
-	
-					<div class="social">
-						<h6 class="social-title">SOCIAL</h6>
-						<img src="images/instagram.svg " alt="instagram" class="insta">
-					</div>
 				</div>
-			</div>
 
-			<div class="copyright">
-				<span class="medi">MediCasa©</span>
-				<span class="direitos">Todos direitos Reservados 2019</span>
-			</div>
-		</footer>
+				<div class="copyright">
+					<span class="medi">MediCasa©</span>
+					<span class="direitos">Todos direitos Reservados 2019</span>
+				</div>
+			</footer>
 
-    <script>
-				<?php include 'js/menu-hamburguer-home.js'?>
-				<?php include 'js/index.js'?>
-				<?php include 'js/accordeon.js'?>
-				<?php include 'js/all.js'?>
-			</script>
+
+      <script>
+				<?php include 'js/menu-hamburguer-all.js';?>
+				<?php include 'js/index.js';?>
+				<?php include 'js/accordeon.js';?>
+		</script>
   </body>
 </html>

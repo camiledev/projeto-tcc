@@ -3,7 +3,7 @@
     <head>
     	<title>Medicasa</title>
 			<meta charset="UTF-8">
-			<link rel="icon" href="/images/fav.png">
+			<link rel="icon" href="./images/fav.png">
     	<meta name="viewport" content="initial-scale=1.0, width=device-width">
 
 			<style>

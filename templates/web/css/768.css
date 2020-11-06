@@ -103,13 +103,13 @@
 }
 
 .rodape-main .info {
-  /* width: 225px; */
+  /* width: 225px; 
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 30px;
 
-}
+}*/
 
 .rodape-title {
   font-size: 0px;
@@ -133,6 +133,7 @@
 .bandeiras-container {
   display: flex;
   flex-flow: column;
+  margin-right: 24px;
 }
 
 .bandeiras-title {
@@ -270,6 +271,7 @@ main{
   
   .insta {
     margin-right: 10px;
+    margin-top: 3px;
   }
   
   .bandeiras-container {
