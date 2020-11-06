@@ -24,7 +24,7 @@
     <header class="header">					
       <nav class="navigation">
           <div class="menu-icon-header">
-            <img class="menu-icon-image-header" src="./images/menu.svg" alt="">
+            <img class="menu-icon-image-header" src="/projeto-tcc/templates/web/images/menu.svg" alt="">
           </div>
           <h1 class="navigation__title">MediCasa</h1>
           <div class="navigation__main">
@@ -34,8 +34,8 @@
                 <li><a href="#">AJUDA</a></li>
                 <li><a href="#">ESPECIALIDADES</a></li>
             </ul>
-            <a href="#">
-              <img src="./images/user.svg" alt="" srcset="">
+            <a href="#" class="d-none d-md-block">
+              <img src="/projeto-tcc/templates/web/images/user.svg" alt="" srcset="">
             </a>
           </div>
       </nav>
@@ -43,7 +43,7 @@
 
   <ul class="menu__mobile">
     <div class="menu-icon-navigation">
-      <img class="menu-icon-image-nav" src="./images/menu2.svg" alt="">
+      <img class="menu-icon-image-nav-home" src="./projeto-tcc/templates/web/images/menu2.svg" alt="">
     </div>
     <li><a href="">HOME</a></li>
     <li><a href="">PERFIL</a></li>

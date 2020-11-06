@@ -80,7 +80,6 @@ class WebController {
             }
         }
 
-
         public function especialidades(): void{
             try{
     
