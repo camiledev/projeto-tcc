@@ -1,32 +1,3 @@
-<?php
- 
-    $connect = mysqli_connect('localhost','root','');
- 
-    $db = mysqli_select_db($connect, 'medicasa');
- 
-    if (isset( $_POST['login']))
-    {
- 
-        $email  = $_POST['email_usu'];    
-        $senha = $_POST['senha_usu'];
- 
-       $verifica = ("SELECT * FROM acesso where email_usu = '$email' and senha = '$senha_usu'");
- 
-       $res = mysql_query($verifica);
- 
-       if (mysql_num_rows ( $res ) !=1)
-      {
-                   echo "<script language='javascript' type='text/javascript'>
-                                   alert('Login e/ou senha incorretos');
-                         window.location.href='cadastrar.php';</script>";
-                    die();
-                }
- 
-                else{
-                   header("Location:home-logado.html");
-             }
-              }
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

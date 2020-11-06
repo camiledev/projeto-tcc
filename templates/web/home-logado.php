@@ -21,8 +21,8 @@
 					<nav class="navigation-home">
 							<ul class="menu-home">
 									<li><a href="<?=url("login")?>">Perfil</a></li>
-									<li><a href="especialidades.php">Especialidades</a></li>
-									<li><a href="">Como Funciona</a></li>
+									<li><a href="<?=url("especialidades")?>">Especialidades</a></li>
+									<li><a href="">Como Funciona</a></li>relative
 									<li><a href="">Quem Somos</a></li>
 							</ul>
 
