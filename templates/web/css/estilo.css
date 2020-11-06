@@ -10,7 +10,7 @@ body {
   font-family: "Arial", sans-serif;
   color: #8BC1C3;
 }
-
+/*
 footer {
   background: #8BC1C3;
   width: 100%;
@@ -21,7 +21,7 @@ footer {
   padding: 20px;
   padding-bottom: 30px;
   position: absolute;
-  /* bottom: -130px; */
+  /* bottom: -130px; 
 }
 
 footer img {
@@ -68,7 +68,7 @@ footer > div > div{
   text-align: center;
   font-size: 15px;
 }
-
+*/
 .form-group {
   display: grid;
   max-width: 400px;
