@@ -128,7 +128,7 @@ class WebController {
             }
         }
 
-        public function finalalizado(): void{
+        public function finalizado(): void{
             try{
     
                 $toView = new ToView(URL_VIEW_WEB);

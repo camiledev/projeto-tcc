@@ -74,7 +74,7 @@
 
       <h1 class="item-2">Método de pagamento</h1>
 
-      <form method="get" action="./finalizado.html" class="form-group item-3">
+      <form method="get" action="<?=url("finalizado")?>" class="form-group item-3">
         <div class="form-item">
           <div style="display: flex;">
             <h2>Cartão de crédito</h2>
@@ -115,7 +115,8 @@
             <input name="expira_cartao" type="text" id="expira_cartao_ano" placeholder="Ano" size="3" required/>
           </div>
         </div>
-        <button onclick="window.location.href = 'home-logado.php'">Finalizado</button> 
+          <button>Finalizado</button> 
+
       </form>
 
       <div class="detalhes item-4">
