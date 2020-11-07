@@ -4,7 +4,7 @@
     	<title>Medicasa</title>
 			<meta charset="UTF-8">
 			<link rel="icon" href="/projeto-tcc/templates/web/images/fav.png">
-    	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+    		<meta name="viewport" content="initial-scale=1.0, width=device-width">
 
 			<style>
 				<?php include 'css/reset.css'; ?>
@@ -24,6 +24,7 @@
 								<li><a href="<?=url("especialidades")?>">Especialidades</a></li>
 								<li><a href="">Como Funciona</a></li>
 								<li><a href="">Quem Somos</a></li>
+								<li><a href="<?=url("workWithUs")?>">Trabalhe conosco</a></li>
 						</ul>
 
 						<div class="menu-icon-navigation-home">
@@ -104,7 +105,7 @@
 			</footer>
 
       <script>
-				<?php include 'js/menu-hamburguer-home.js'?>
-			</script>
+			<?php include 'js/menu-hamburguer-home.js'?>
+		</script>
     </body>
 </html>

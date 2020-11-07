@@ -4,7 +4,7 @@
     	<title>Medicasa</title>
 			<meta charset="UTF-8">
 			<link rel="icon" href="./images/fav.png">
-    	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+    		<meta name="viewport" content="initial-scale=1.0, width=device-width">
 
 			<style>
 				<?php include 'css/reset.css'; ?>
@@ -12,6 +12,7 @@
 				<?php include 'css/768.css'; ?>
 				<?php include 'css/768-1200.css'; ?>
 				<?php include 'css/desktop.css'; ?>
+				<?php include 'css/estilo.css'; ?>
 			</style>
     </head>
 
@@ -20,10 +21,11 @@
 				
 				<nav class="navigation-home">
 						<ul class="menu-home">
-								<li><a href="<?=url("login")?>">Entrar / Cadastre-se</a></li>
+								<li><a href="<?=url("login")?>">Entrar/Cadastre-se</a></li>
 								<li><a href="<?=url("especialidades")?>">Especialidades</a></li>
 								<li><a href="">Como Funciona</a></li>
 								<li><a href="">Quem Somos</a></li>
+								<li><a href="<?=url("workWithUs")?>">Trabalhe conosco</a></li>
 						</ul>
 
 						<div class="menu-icon-navigation-home">
@@ -34,11 +36,6 @@
 				<div class="menu-icon-header-home">
 					<img class="menu-icon-image-header-home" src="/projeto-tcc/templates/web/images/menu.svg" alt="">
 				</div>
-		</header>
-
-					<div class="menu-icon-header-home">
-						<img class="menu-icon-image-header-home" src="/projeto-tcc/templates/web/images/menu.svg" alt="">
-					</div>
 			</header>
 			<main class="main-home">
 				<!-- <img src="img/medicasa.png" class="banner" alt="fundo" /> -->

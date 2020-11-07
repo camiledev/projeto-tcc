@@ -20,7 +20,8 @@
 	</head>
     <body>
  <!--menu-->
- <header class="header">					
+		<!--menu-->
+		<header class="header">					
 			<nav class="navigation">
 					<div class="menu-icon-header">
 						<img class="menu-icon-image-header" src="/projeto-tcc/templates/web/images/menu.svg" alt="">
@@ -32,6 +33,7 @@
 								<li><a href="<?=url("perfcli")?>">PERFIL</a></li>
 								<li><a href="<?=url("duvidas")?>">AJUDA</a></li>
 								<li><a href="<?=url("especialidades")?>">ESPECIALIDADES</a></li>
+								<li><a href="<?=url("workWithUs")?>">TRABALHE CONOSCO</a></li>
 						</ul>
 						<a href="#">
 							<img src="/projeto-tcc/templates/web/images/user.svg" alt="" srcset="">
@@ -39,6 +41,17 @@
 					</div>
 				</nav>
 		</header>
+
+	<ul class="menu__mobile">
+		<div class="menu-icon-navigation">
+			<img class="menu-icon-image-nav" src="/projeto-tcc/templates/web/images/menu2.svg" alt="">
+		</div>
+		<li><a href="<?=url("")?>">HOME</a></li>
+		<li><a href="<?=url("perfcli")?>">PERFIL</a></li>
+		<li><a href="<?=url("duvidas")?>">AJUDA</a></li>
+		<li><a href="<?=url("especialidades")?>">ESPECIALIDADES</a></li>
+		<li><a href="<?=url("workWithUs")?>">TRABALHE CONOSCO</a></li>
+	</ul>
     
         <div id="container">
             <div id="box-1" class="box">Perfil</div>

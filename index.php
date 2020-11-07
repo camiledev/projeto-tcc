@@ -47,6 +47,9 @@ $router->get("/", "WebController:pag");
 $router->group("finalizado");
 $router->get("/", "WebController:finalizado");
 
+$router->group("workWithUs");
+$router->get("/", "WebController:workWithUs");
+
 // ADM
 $router->group("admin");
 $router->get("/", "AdminController:home");

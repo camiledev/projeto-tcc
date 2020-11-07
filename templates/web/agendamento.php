@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+<html>
+
+	<head>
+		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0, width=device-width">
 		<link rel="icon" href="/projeto-tcc/templates/web/images/fav.png">
-    
+
+		<!-- <link rel="stylesheet" href="./css/all.min.css"> -->
+
     <style>
 				<?php include 'css/reset.css'; ?>
 				<?php include 'css/menuhamburguer.css'; ?>
@@ -20,7 +23,7 @@
   </head>
 
   <body>
-   <!--menu-->
+		<!--menu-->
 		<header class="header">					
 			<nav class="navigation">
 					<div class="menu-icon-header">
@@ -33,6 +36,7 @@
 								<li><a href="<?=url("perfcli")?>">PERFIL</a></li>
 								<li><a href="<?=url("duvidas")?>">AJUDA</a></li>
 								<li><a href="<?=url("especialidades")?>">ESPECIALIDADES</a></li>
+								<li><a href="<?=url("workWithUs")?>">TRABALHE CONOSCO</a></li>
 						</ul>
 						<a href="#">
 							<img src="/projeto-tcc/templates/web/images/user.svg" alt="" srcset="">
@@ -40,6 +44,17 @@
 					</div>
 				</nav>
 		</header>
+
+	<ul class="menu__mobile">
+		<div class="menu-icon-navigation">
+			<img class="menu-icon-image-nav" src="/projeto-tcc/templates/web/images/menu2.svg" alt="">
+		</div>
+		<li><a href="<?=url("")?>">HOME</a></li>
+		<li><a href="<?=url("perfcli")?>">PERFIL</a></li>
+		<li><a href="<?=url("duvidas")?>">AJUDA</a></li>
+		<li><a href="<?=url("especialidades")?>">ESPECIALIDADES</a></li>
+		<li><a href="<?=url("workWithUs")?>">TRABALHE CONOSCO</a></li>
+	</ul>
 
     <section class="form-section">
       <ul class="agend-progress">
@@ -206,10 +221,9 @@
 				<span class="direitos">Todos direitos Reservados 2019</span>
 			</div>
 		</footer>
-    <script>
-				<?php include 'js/menu-hamburguer-all.js';?>
-				<?php include 'js/index.js';?>
-				<?php include 'js/accordeon.js';?>
+		<script>
+				<?php include 'js/menu-hamburguer-all.js'; ?>
+				<?php include 'js/index.js'; ?>
 		</script>
   </body>
 </html>

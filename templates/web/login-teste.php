@@ -50,7 +50,6 @@
             <label for="password">Senha:</label>
             <div class="passInput">
               <input name="password" type="password" id="password" placeholder="******" required size="25"/>
-              <i class="fas fa-eye" id="olho"></i>
             </div>
           </div>
           <div>

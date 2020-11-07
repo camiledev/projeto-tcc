@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
+
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0, width=device-width">
 		<link rel="icon" href="/projeto-tcc/templates/web/images/fav.png">
 
+		<!-- <link rel="stylesheet" href="./css/all.min.css"> -->
+
 		<style>
-      <?php include 'css/reset.css'; ?>
-      <?php include 'css/menuhamburguerhome.css'; ?>
-      <?php include 'css/320.css'; ?>
-      <?php include 'css/768.css'; ?>
-      <?php include 'css/768-1200.css'; ?>
-      <?php include 'css/desktop.css'; ?>
+				<?php include 'css/reset.css'; ?>
+				<?php include 'css/320.css'; ?>
+				<?php include 'css/768.css'; ?>
+				<?php include 'css/768-1200.css'; ?>
+				<?php include 'css/desktop.css'; ?>
+				<?php include 'css/menuhamburguer.css'; ?>
 		</style>
 
-		<link rel="stylesheet" href="./css/all.min.css">
 		<title>Trabalhe conosco</title>
 	</head>
 
   <body>
-  		<!--menu-->
-		  <header class="header">					
+		<!--menu-->
+		<header class="header">					
 			<nav class="navigation">
 					<div class="menu-icon-header">
 						<img class="menu-icon-image-header" src="/projeto-tcc/templates/web/images/menu.svg" alt="">
@@ -32,6 +34,7 @@
 								<li><a href="<?=url("perfcli")?>">PERFIL</a></li>
 								<li><a href="<?=url("duvidas")?>">AJUDA</a></li>
 								<li><a href="<?=url("especialidades")?>">ESPECIALIDADES</a></li>
+								<li><a href="<?=url("workWithUs")?>">TRABALHE CONOSCO</a></li>
 						</ul>
 						<a href="#">
 							<img src="/projeto-tcc/templates/web/images/user.svg" alt="" srcset="">
@@ -39,6 +42,17 @@
 					</div>
 				</nav>
 		</header>
+
+	<ul class="menu__mobile">
+		<div class="menu-icon-navigation">
+			<img class="menu-icon-image-nav" src="/projeto-tcc/templates/web/images/menu2.svg" alt="">
+		</div>
+		<li><a href="<?=url("")?>">HOME</a></li>
+		<li><a href="<?=url("perfcli")?>">PERFIL</a></li>
+		<li><a href="<?=url("duvidas")?>">AJUDA</a></li>
+		<li><a href="<?=url("especialidades")?>">ESPECIALIDADES</a></li>
+		<li><a href="<?=url("workWithUs")?>">TRABALHE CONOSCO</a></li>
+	</ul>
 
     <section class="form-section">
       <h1 style="margin-left: -20px;">Trabalhe conosco</h1>
@@ -105,9 +119,9 @@
 			</div>
 		</footer>  
 
-		<script src="./js/menu-hamburguer-all.js"></script>
-		<script src="./js/index.js"></script>
-		<script src="./js/accordeon.js"></script>
-		<script src="./js/all.js"></script>
+		<script>
+				<?php include 'js/menu-hamburguer-all.js'; ?>
+				<?php include 'js/index.js'; ?>
+		</script>
   </body>
 </html>

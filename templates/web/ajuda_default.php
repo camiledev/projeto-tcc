@@ -15,7 +15,7 @@
 				<?php include 'css/768-1200.css'; ?>
 				<?php include 'css/desktop.css'; ?>
 				<?php include 'css/menuhamburguer.css'; ?>
-			</style>
+		</style>
 
 		<title>Duvídas Frequentes</title>
 	</head>
@@ -34,6 +34,7 @@
 								<li><a href="<?=url("perfcli")?>">PERFIL</a></li>
 								<li><a href="<?=url("duvidas")?>">AJUDA</a></li>
 								<li><a href="<?=url("especialidades")?>">ESPECIALIDADES</a></li>
+								<li><a href="<?=url("workWithUs")?>">TRABALHE CONOSCO</a></li>
 						</ul>
 						<a href="#">
 							<img src="/projeto-tcc/templates/web/images/user.svg" alt="" srcset="">
@@ -46,10 +47,11 @@
 		<div class="menu-icon-navigation">
 			<img class="menu-icon-image-nav" src="/projeto-tcc/templates/web/images/menu2.svg" alt="">
 		</div>
-		<li><a href="">HOME</a></li>
-		<li><a href="">PERFIL</a></li>
-		<li><a href="#">AJUDA</a></li>
-		<li><a href="#">ESPECIALIDADES</a></li>
+		<li><a href="<?=url("")?>">HOME</a></li>
+		<li><a href="<?=url("perfcli")?>">PERFIL</a></li>
+		<li><a href="<?=url("duvidas")?>">AJUDA</a></li>
+		<li><a href="<?=url("especialidades")?>">ESPECIALIDADES</a></li>
+		<li><a href="<?=url("workWithUs")?>">TRABALHE CONOSCO</a></li>
 	</ul>
 	
 	<main class="main-ajuda-default">
@@ -156,7 +158,6 @@
 		<script>
 				<?php include 'js/menu-hamburguer-all.js'; ?>
 				<?php include 'js/index.js'; ?>
-				<?php include 'js/accordeon.js'; ?>
 		</script>
 	</body>
 

@@ -38,13 +38,12 @@
             <h2>Login</h2>
             <div>
               <label for="email">Email:</label>
-              <input name="email" type="email" id="email" placeholder="Exemplo@gmail.com" required size="25"/>
+              <input name="email" type="email" id="email" placeholder="Exemplo@gmail.com" required size="25">
             </div>
             <div>
               <label for="password">Senha:</label>
               <div class="passInput">
-                <input name="password" type="password" id="password" placeholder="******" required size="25"/>
-                <i class="fas fa-eye" id="olho"></i>
+                <input name="password" type="password" id="password" placeholder="******" required size="25">
               </div>
             </div>
             <div>
@@ -57,6 +56,6 @@
       </form>
     </section>
   
-    <script src="js/index.js"></script>
+    <script src="./js/index.js"></script>
   </body>
   </html>

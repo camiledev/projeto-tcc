@@ -4,6 +4,20 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  color: white;
+}
+
+.grid.especialidades-grid{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: #8BC1C3;
+}
+
+p{
+  color: #8BC1C3;
 }
 
 body {
@@ -271,18 +285,18 @@ footer > div > div{
 
 .logSection > div:nth-child(2) > div > div:nth-child(4) {
   text-align: center;
-  margin: 20px;
+  /*margin: 20px;*/
 }
 
 .logSection > div:nth-child(2) > div > div:nth-child(4) > a {
-  margin: 7px;
+ /* margin: 7px;*/
   font-size: 13px;
   color: #8BC1C3;
 }
 
 .logSection > div:nth-child(2) > div > h2 {
   text-align: center;
-  margin: 20px;
+  /*margin: 20px;*/
   margin-top: -20px;
 }
 

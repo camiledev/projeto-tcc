@@ -2,6 +2,7 @@
   margin: 0px;
   padding:0px;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 #image{
@@ -20,6 +21,10 @@ position: relative;
 
 
 /*BOTÃO AGENDAMENTO*/
+a.agendar{
+  color: white;
+} 
+
 #botao-agendamento {
 width: 6cm;
 height:6cm;
@@ -29,10 +34,9 @@ background-color: #8bc1c3;
 top:380px;
 position: absolute;
 right: 38%;
-
-
-
+color: white;
 }
+
 h1.agendar{
 font-family: 'Arial Regular', 'Arial', sans-serif;
 text-decoration-line: none;
@@ -44,6 +48,7 @@ font-size: 25px;
 padding-top: 75px;
 font-weight: normal;
 }
+
 
 /*COMEÇO 1º CONTEÚDO*/
 
