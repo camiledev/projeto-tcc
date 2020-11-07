@@ -68,7 +68,7 @@
   .section-box > div {
     text-align: center;
     margin: 5vw;
-    margin-top: 110px;
+    margin-top: 50px;
   }
   
   @media (max-width: 920px) {

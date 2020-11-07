@@ -1,0 +1,50 @@
+body{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium ;
+}
+meta{
+    display: none;
+}
+h1{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+option{
+    text-align: center;
+}
+label{ 
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+ul{
+    text-align: left;
+    text-decoration: none;
+}
+img  {
+    border-radius: 50%;
+}
+li {
+    list-style-type: none;
+}
+input{
+    display: block;
+}
+.header{
+    padding: 10px;
+    text-align: left;
+    background-color: #8BC1C3;
+    font-size: 20px;
+}
+a{
+    color: white;
+    text-decoration:none;
+    border: 15px;
+}
+style.href{
+    text-decoration: none;
+}
+

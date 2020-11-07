@@ -128,7 +128,7 @@
 
 				<div class="ajuda-container">
 					<h6 class="ajuda-title">AJUDA</h6>
-					<span class="ajuda-link">Dúvidas frequentes</span>
+					<span class="ajuda-link"><a href="<?=url("duvidas")?>">Dúvidas frequentes</a></span>
 				</div>
 
 				<div class="info">
@@ -139,7 +139,7 @@
 							<img src="/projeto-tcc/templates/web/images/mastercard.svg " alt="mastercard" class="bandeiras">
 						</div>
 					</div>
-	
+
 					<div class="social">
 						<h6 class="social-title">SOCIAL</h6>
 						<img src="/projeto-tcc/templates/web/images/instagram.svg " alt="instagram" class="insta">
@@ -154,7 +154,7 @@
 		</footer>
 
 		<script>
-				<?php include 'js/menu-hamburguer-home.js';?>
+				<?php include 'js/menu-hamburguer-all.js';?>
 				<?php include 'js/index.js';?>
 				<?php include 'js/accordeon.js';?>
 		</script>
