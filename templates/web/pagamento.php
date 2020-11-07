@@ -12,7 +12,9 @@
 				<?php include 'css/768-1200.css'; ?>
 				<?php include 'css/desktop.css'; ?>
 				<?php include 'css/estilo.css'; ?>
-				<?php include 'css/default.css'; ?>
+        <?php include 'css/default.css'; ?>
+        <?php include 'css/styleAgendamento.css'; ?>
+        <?php include 'css/style.css'; ?>
     </style>
     
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -55,16 +57,40 @@
 
   <body>
     <!--menu-->
-		<header class="header">					
+<!--menu-->
+<header class="header">					
 			<nav class="navigation">
 					<div class="menu-icon-header">
 						<img class="menu-icon-image-header" src="/projeto-tcc/templates/web/images/menu.svg" alt="">
 					</div>
 					<h1 class="navigation__title">MediCasa</h1>
+					<div class="navigation__main">
+						<ul class="menu">
+								<li><a href="<?=url("")?>">HOME</a></li>
+								<li><a href="<?=url("perfcli")?>">PERFIL</a></li>
+								<li><a href="<?=url("duvidas")?>">AJUDA</a></li>
+								<li><a href="<?=url("especialidades")?>">ESPECIALIDADES</a></li>
+								<li><a href="<?=url("workWithUs")?>">TRABALHE CONOSCO</a></li>
+						</ul>
+						<a href="#">
+							<img src="/projeto-tcc/templates/web/images/user.svg" alt="" srcset="">
+						</a>
+					</div>
 				</nav>
 		</header>
 
-    <section class="form-section form-section3">
+	<ul class="menu__mobile">
+		<div class="menu-icon-navigation">
+			<img class="menu-icon-image-nav" src="/projeto-tcc/templates/web/images/menu2.svg" alt="">
+		</div>
+		<li><a href="<?=url("")?>">HOME</a></li>
+		<li><a href="<?=url("perfcli")?>">PERFIL</a></li>
+		<li><a href="<?=url("duvidas")?>">AJUDA</a></li>
+		<li><a href="<?=url("especialidades")?>">ESPECIALIDADES</a></li>
+		<li><a href="<?=url("workWithUs")?>">TRABALHE CONOSCO</a></li>
+	</ul>
+
+    <section class="form-section">
 
       <ul class="agend-progress agend-progress-2 item-1">
           <li>DETALHES DO AGENDAMENTO</li>
@@ -169,7 +195,7 @@
     <script>
 				<?php include 'js/menu-hamburguer-all.js';?>
 				<?php include 'js/index.js';?>
-				<?php include 'js/accordeon.js';?>
+
 		</script>
   </body>
 </html>

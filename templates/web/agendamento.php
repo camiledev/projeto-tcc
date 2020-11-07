@@ -15,6 +15,7 @@
       <?php include 'css/768-1200.css'; ?>
       <?php include 'css/desktop.css'; ?>
       <?php include 'css/menuhamburguer.css'; ?>
+      <?php include 'css/styleAgendamento.css'; ?>
     </style>
 
     <title>Agendamento</title>
