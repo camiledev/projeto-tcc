@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<head>
+    <meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, width=device-width">
+		<link rel="icon" href="/projeto-tcc/templates/web/images/fav.png">
     
-    <link rel="stylesheet" href="css/styleAgendamento.css" />
+    <style>
+				<?php include 'css/reset.css'; ?>
+				<?php include 'css/menuhamburguer.css'; ?>
+				<?php include 'css/768.css'; ?>
+				<?php include 'css/768-1200.css'; ?>
+				<?php include 'css/desktop.css'; ?>
+				<?php include 'css/estilo.css'; ?>
+				<?php include 'css/default.css'; ?>
+    </style>
+    
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script>
       let ClientInfo = {}
@@ -45,20 +54,15 @@
   </head>
 
   <body>
-    <nav class="menu">
-      <img src="images/user.svg"/>
-      <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo">MediCasa</label>
-      <ul>
-        <li><a class="active" href="home-logado.html">Home</a></li>
-        <li><a href="#">Perfil</a></li>
-        <li><a href="#">Ajuda</a></li>
-        <li><a href="especialidades.html">Especialidades</a></li>
-      </ul>
-    </nav>
+    <!--menu-->
+		<header class="header">					
+			<nav class="navigation">
+					<div class="menu-icon-header">
+						<img class="menu-icon-image-header" src="/projeto-tcc/templates/web/images/menu.svg" alt="">
+					</div>
+					<h1 class="navigation__title">MediCasa</h1>
+				</nav>
+		</header>
 
     <section class="form-section form-section3">
 
@@ -111,7 +115,7 @@
             <input name="expira_cartao" type="text" id="expira_cartao_ano" placeholder="Ano" size="3" required/>
           </div>
         </div>
-        <input type="submit" value="Finalizar">
+        <button onclick="window.location.href = 'home-logado.php'">Finalizado</button> 
       </form>
 
       <div class="detalhes item-4">
@@ -160,6 +164,11 @@
 				<span class="medi">MediCasa©</span>
 				<span class="direitos">Todos direitos Reservados 2019</span>
 			</div>
-		</footer>
+    </footer>
+    <script>
+				<?php include 'js/menu-hamburguer-all.js';?>
+				<?php include 'js/index.js';?>
+				<?php include 'js/accordeon.js';?>
+		</script>
   </body>
 </html>

@@ -20,7 +20,7 @@
 				
 				<nav class="navigation-home">
 						<ul class="menu-home">
-								<li><a href="<?=url("login")?>">Perfil</a></li>
+								<li><a href="<?=url("login")?>">Entrar / Cadastre-se</a></li>
 								<li><a href="<?=url("especialidades")?>">Especialidades</a></li>
 								<li><a href="">Como Funciona</a></li>
 								<li><a href="">Quem Somos</a></li>
@@ -45,7 +45,7 @@
 				
 				<div class="botao-agendamento">
 					<h1 class="agendar">
-						<a>Clique aqui para<br> agendar </a>
+					<a href="<?=url("agend")?>">Clique aqui para<br> agendar </a>
 					</h1>
 				</div>
 

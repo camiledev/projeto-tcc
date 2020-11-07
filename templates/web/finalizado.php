@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="initial-scale=1.0, width=device-width">
+			<link rel="icon" href="/projeto-tcc/templates/web/images/fav.png">
+		
+		<style>
+			<?php include 'css/reset.css'; ?>
+			<?php include 'css/menuhamburguer.css'; ?>
+			<?php include 'css/768.css'; ?>
+			<?php include 'css/768-1200.css'; ?>
+			<?php include 'css/desktop.css'; ?>
+			<?php include 'css/estilo.css'; ?>
+			<?php include 'css/default.css'; ?>
+    	</style>
     
-    <link rel="stylesheet" href="css/styleAgendamento.css" />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>Pagamento</title>
-  </head>
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<title>Pagamento</title>
+  	</head>
 
   <body>
     <!--menu-->

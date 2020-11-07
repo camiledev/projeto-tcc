@@ -40,7 +40,7 @@
 				
 				<div class="botao-agendamento">
 					<h1 class="agendar">
-						<a>Clique aqui para<br> agendar </a>
+						<a href="<?=url("agend")?>">Clique aqui para<br> agendar </a>
 					</h1>
 				</div>
 

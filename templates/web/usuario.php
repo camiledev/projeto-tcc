@@ -7,20 +7,20 @@
 
 		<style>
       <?php include 'css/reset.css'; ?>
-      <?php include 'css/menuhamburguerhome.css'; ?>
+      <?php include 'css/menuhamburguer.css'; ?>
       <?php include 'css/320.css'; ?>
       <?php include 'css/768.css'; ?>
       <?php include 'css/768-1200.css'; ?>
       <?php include 'css/desktop.css'; ?>
-      <?php include 'css/style.css'; ?>
+      <?php include 'css/estilo.css'; ?>
 		</style>
 
 		<link rel="stylesheet" href="./css/all.min.css">
 		<title>Perfil Usuário</title>
 	</head>
     <body>
-     		<!--menu-->
-		<header class="header">					
+ <!--menu-->
+ <header class="header">					
 			<nav class="navigation">
 					<div class="menu-icon-header">
 						<img class="menu-icon-image-header" src="/projeto-tcc/templates/web/images/menu.svg" alt="">
@@ -39,18 +39,10 @@
 					</div>
 				</nav>
 		</header>
-        <ul class="menu__mobile">
-            <div class="menu-icon-navigation">
-                <img class="menu-icon-image-nav" src="./img/menu2.svg" alt="">
-            </div>
-            <li><a href="">HOME</a></li>
-            <li><a href="">PERFIL</a></li>
-            <li><a href="#">AJUDA</a></li>
-            <li><a href="#">ESPECIALIDADES</a></li>
-        </ul>
+    
         <div id="container">
             <div id="box-1" class="box">Perfil</div>
-            <img class="perfil" src="./img/perfil.svg" alt="">
+            <img class="perfil" src="/projeto-tcc/templates/web/images/perfiluser.png" alt="">
         </div>
         <div class="bottom-text">
              Editar Perfil
@@ -170,7 +162,6 @@
 					</div>
 				</div>
 			</div>
-
 			<div class="copyright">
 				<span class="medi">MediCasa©</span>
 				<span class="direitos">Todos direitos Reservados 2019</span>

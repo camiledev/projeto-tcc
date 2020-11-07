@@ -38,6 +38,14 @@ $router->get("/", "WebController:especialidades");
 $router->group("perfcli");
 $router->get("/", "WebController:perfcli");
 
+$router->group("agend");
+$router->get("/", "WebController:agend");
+
+$router->group("pag");
+$router->get("/", "WebController:pag");
+
+$router->group("finalizado");
+$router->get("/", "WebController:finalizado");
 
 // ADM
 $router->group("admin");

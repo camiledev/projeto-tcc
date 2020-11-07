@@ -66,6 +66,30 @@ class WebController {
             }
         }
 
+        public function agend(): void{
+            try{
+    
+                $toView = new ToView(URL_VIEW_WEB);
+                $toView ->viewStandard('agendamento');
+    
+    
+            } catch(\Exception $exception){
+    
+            }
+        }
+
+        public function pag(): void{
+            try{
+    
+                $toView = new ToView(URL_VIEW_WEB);
+                $toView ->viewStandard('pagamento');
+    
+    
+            } catch(\Exception $exception){
+    
+            }
+        }
+
 
         public function loggedHome(): void{
             try{
@@ -97,6 +121,18 @@ class WebController {
     
                 $toView = new ToView(URL_VIEW_WEB);
                 $toView ->viewStandard('especialidades');
+    
+    
+            } catch(\Exception $exception){
+    
+            }
+        }
+
+        public function finalalizado(): void{
+            try{
+    
+                $toView = new ToView(URL_VIEW_WEB);
+                $toView ->viewStandard('finalizado');
     
     
             } catch(\Exception $exception){

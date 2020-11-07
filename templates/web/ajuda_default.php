@@ -154,9 +154,9 @@
 		</footer>
 
 		<script>
-				<?php include 'js/menu-hamburguer-all.js';?>
-				<?php include 'js/index.js';?>
-				<?php include 'js/accordeon.js';?>
+				<?php include 'js/menu-hamburguer-all.js'; ?>
+				<?php include 'js/index.js'; ?>
+				<?php include 'js/accordeon.js'; ?>
 		</script>
 	</body>
 
