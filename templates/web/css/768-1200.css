@@ -97,8 +97,8 @@
     background-color: #8bc1c3;
     padding: 10px;
     color: #ffffff;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute; */
+    /* bottom: 0; */
   }
   
   .rodape-main {
