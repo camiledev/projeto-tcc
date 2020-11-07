@@ -12,6 +12,7 @@
 				<?php include 'css/768.css'; ?>
 				<?php include 'css/768-1200.css'; ?>
 				<?php include 'css/desktop.css'; ?>
+				<?php include 'css/estilo.css'; ?>
 			</style>
     </head>
 
@@ -41,7 +42,7 @@
 				
 				<div class="botao-agendamento">
 					<h1 class="agendar">
-						<a href="<?=url("agend")?>">Clique aqui para<br> agendar </a>
+					<a href="<?=url("agend")?>">Clique aqui para<br> agendar </a>
 					</h1>
 				</div>
 

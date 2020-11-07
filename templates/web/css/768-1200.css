@@ -3,6 +3,10 @@
     display: none;
   }
 
+  a {
+    color: white;
+  }
+
   .menu-icon-header-home {
     display: none;
   }
@@ -86,6 +90,7 @@
   
   .rodape-title {
     font-size: 45px;
+    color: white;
   }
 
   .ajuda-container {
@@ -97,8 +102,8 @@
     background-color: #8bc1c3;
     padding: 10px;
     color: #ffffff;
-    /* position: absolute; */
-    /* bottom: 0; */
+    position: absolute; 
+ 
   }
   
   .rodape-main {
@@ -120,6 +125,7 @@
   
   .rodape-title {
     font-size: 45px;
+    color: white;
   }
 
   .gmail {
@@ -290,6 +296,7 @@
  /* Rodape */
  .rodape-title {
   font-size: 45px;
+  color: white;
 }
 
 .ajuda-container {
@@ -323,6 +330,7 @@
 
 .rodape-title {
   font-size: 45px;
+  color: white;
 }
 
 .gmail {
@@ -447,7 +455,7 @@ footer > div > div{
 #curriculoLbl {
   padding: 10px;
   width: 200%;
-  max-width: 360px;
+  
 }
 
 .form-item {
@@ -460,19 +468,40 @@ footer > div > div{
 }
 
 .form-section {
-  /* padding-top: 30px; */
+  padding-top: 10px;
   text-align: center;
 }
 
- button{
+
+.button a {
+  color: #8BC1C3;
+}
+
+.button{
   padding: 10px 50px 10px;
-  margin: 25px 140px 0 auto;
   background: white;
   border: 2px solid #8BC1C3;
   color: #8BC1C3;
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}/*.form-group > input */
+
+ button{
+  padding: 10px 50px 10px;
+  background: white;
+  border: 2px solid #8BC1C3;
+  color: #8BC1C3;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
 }/*.form-group > input */
 
 .passInput {
@@ -496,7 +525,7 @@ footer > div > div{
 }
 
 .form-item label {
-  margin-top: 10px;
+  font-size: 16px;
 }
 
 .form-item input,select {
@@ -505,7 +534,7 @@ footer > div > div{
   padding: 8px;
   box-shadow: 3px 5px 9px #88888869;
   color: #8BC1C3;
-  margin: 15px;
+  width: 100%;
 }
 
 .logSection {
@@ -532,13 +561,14 @@ footer > div > div{
 }
 
 .logSection div:first-child > div > select{
-  padding: 2px 20px 2px 50px;
+  padding: 2px 20px 2px 0;
   border: 2px solid white;
   border-radius: 2px;
-  color: white;
+  color: 8BC1C3;
   font-weight: bold;
   margin-right: 15px;
   width: 274px;
+  background-color: white;
 }
 
 .logSection h1 {
@@ -710,10 +740,10 @@ label.logo {
   .checkbtn {
     display: block;
   }
-  
+  /*
   #curriculoLbl {
     max-width: 380px;
-  }
+  }*/
 
   .menu > ul {
     position: fixed;
@@ -751,6 +781,8 @@ label.logo {
 
   .form-item {
     grid-template-columns: repeat(1,auto) !important;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .passInput > input {
@@ -772,11 +804,12 @@ label.logo {
   }
   
   .form-group > input {
-    margin: 25px auto 0 auto !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
   }
-  
   .form-group {
-    margin: 30px auto 0 auto !important;
+    margin: 0px auto 0 auto !important;
     border-right: 0px !important;
     padding-bottom: 30px !important;
   }

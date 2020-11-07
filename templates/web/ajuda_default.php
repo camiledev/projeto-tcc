@@ -54,7 +54,7 @@
 		<li><a href="<?=url("workWithUs")?>">TRABALHE CONOSCO</a></li>
 	</ul>
 	
-	<main class="main-ajuda-default">
+<main>
 		<h3 class="titulo">Dúvidas Frequentes</h3>
 	
 		<div class="items">
@@ -158,6 +158,7 @@
 		<script>
 				<?php include 'js/menu-hamburguer-all.js'; ?>
 				<?php include 'js/index.js'; ?>
+
 		</script>
 	</body>
 

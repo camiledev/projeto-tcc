@@ -117,7 +117,7 @@
 				<span class="medi">MediCasa©</span>
 				<span class="direitos">Todos direitos Reservados 2019</span>
 			</div>
-		</footer>  
+		</footer>
 
 		<script>
 				<?php include 'js/menu-hamburguer-all.js'; ?>

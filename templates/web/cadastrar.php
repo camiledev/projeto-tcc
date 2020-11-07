@@ -103,14 +103,12 @@
             <label for="password">Senha:</label>
             <div class="passInput">
               <input name="password" type="password" id="password" placeholder="Insira sua senha" required size="25"/>
-              <i class="fas fa-eye" id="olho"></i>
             </div>
           </div>
           <div>
             <label for="passwordConf">Confirme sua senha:</label>
             <div class="passInput">
               <input name="passwordConf" type="password" id="passwordconf" placeholder="Confirme sua senha" required size="25"/>
-              <i class="fas fa-eye 1" id="olho"></i>
             </div>
           </div>
         </div>      

@@ -1,22 +1,19 @@
+!DOCTYPE html>
+<html>
+    <head>
+    	<title>Medicasa</title>
+			<meta charset="UTF-8">
+			<link rel="icon" href="/projeto-tcc/templates/web/images/fav.png">
+    		<meta name="viewport" content="initial-scale=1.0, width=device-width">
 
-<!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/223af74c50.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/estilo.css"/>
-  
-    <title>Login</title>
-  </head>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
-  
-  
-  </style>
+			<style>
+				<?php include 'css/reset.css'; ?>
+				<?php include 'css/768.css'; ?>
+				<?php include 'css/768-1200.css'; ?>
+				<?php include 'css/desktop.css'; ?>
+				<?php include 'css/estilo.css'; ?>
+			</style>
+    </head>
   <body>
     <section>
       <form action="" class="logSection">
