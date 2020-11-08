@@ -1,4 +1,4 @@
-@media(min-width: 768px) {
+@media(min-width: 770px) {
   .menu-icon-navigation-home {
     display: none;
   }
@@ -134,7 +134,7 @@
   
 }
 
-@media(min-width: 768px) {
+@media(min-width: 770px) {
   .titulo{
     color: #8bc1c3;
   }
@@ -196,7 +196,7 @@
   }
 }
 
-@media(min-width: 768px) {
+@media(min-width: 810px) {
   .menu-icon-navigation {
     display: none;
   }
@@ -219,7 +219,7 @@
     padding: 0 30px;
   }
 }
-@media(min-width: 768px) {
+@media(min-width: 810px) {
   .menu-icon-navigation {
     display: none;
   }
@@ -259,7 +259,7 @@
     font-size: 17px;
     padding: 10px;
     color: #FFF;
-    margin-left: 30px
+    margin-left: 10px
   }
 
   .menu li a {
@@ -275,7 +275,8 @@
   }
 
   .menu li:last-child {
-    margin-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px:
   }
 
   .menu__mobile {
@@ -288,10 +289,10 @@
     align-items: center;
     margin-right: 20px;
   }
-
+/*
   .navigation__main a {
     margin-left: 20px;
-  }
+  }*/
 
  /* Rodape */
  .rodape-title {
@@ -455,14 +456,14 @@ footer > div > div{
 #curriculoLbl {
   padding: 10px;
   width: 200%;
-  
+  font-size:16px;
 }
 
 .form-item {
   margin: 5px;
   text-align: left;
   display: inline-grid;
-  grid-template-columns: repeat(2,auto);
+ /* grid-template-columns: repeat(2,auto);*/
   font-size: 18px;
   font-weight: bold;
 }
@@ -535,6 +536,11 @@ footer > div > div{
   box-shadow: 3px 5px 9px #88888869;
   color: #8BC1C3;
   width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-item-finalizar{
+  margin-bottom: 20px;
 }
 
 .logSection {

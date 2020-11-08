@@ -138,6 +138,7 @@
 
   .menu li:last-child {
     margin-left: 10px;
+    margin-right: 10px:
   }
 
   .menu__mobile {
@@ -149,10 +150,10 @@
     justify-content: space-between;
     align-items: center;
   }
-
+/*
   .navigation__main a {
     margin-left: 20px;
-  }
+  }*/
 
  /* Rodape */
  .rodape-title {

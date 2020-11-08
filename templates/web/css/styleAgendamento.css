@@ -189,10 +189,10 @@ footer > div {
 	font-size: 30px;
 	margin: 0 0 0 10px;
 }*/
-
+/*
 .form-item > div {
 	margin-top: 20px;
-}
+}*/
 
 .parcelas {
   width: 160px;
@@ -235,7 +235,7 @@ footer > div {
 }
 
 /* MENU */
-
+/*
 .menu {
   background: #8BC1C3;
   height: 70px;
@@ -351,7 +351,7 @@ a:hover {
     left: 0;
   }
 
-}
+}*/
 
 @media (max-width: 896px){
 
@@ -366,10 +366,10 @@ a:hover {
     grid-template-areas: "status" "titulo" "cartao" "detalhes" !important;
     align-content: center !important;
   }
-  
+  /*
   .form-group > input {
     margin: 25px auto 0 auto !important;
-  }
+  }*/
   
   .form-group {
     margin: 30px auto 0 auto !important;

@@ -83,16 +83,25 @@
   #segundo-box {
     margin-top: 10px;
   }
+
+}
+
+@media(min-width: 1024px) {
+  .general-button{
+    width: 150px;
+    margin-left: 180px;
+}
 }
 
 .general-button{
   padding: 10px 50px 10px;
-  margin-top:50px;
+  margin-top: 30px;
   background: white;
   border: 2px solid #8BC1C3;
   color: #8BC1C3;
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
+  margin-bottom: 30px;
 }/*.form-group > input */
 

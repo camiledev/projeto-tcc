@@ -130,13 +130,14 @@ footer > div > div{
   padding: 10px;
   width: 100%;
   max-width: 360px;
+  font-size:16px;
 }
 
 .form-item {
   margin: 5px;
   text-align: left;
   display: inline-grid;
-  grid-template-columns: repeat(2,auto);
+ /* grid-template-columns: repeat(2,auto);*/
   font-size: 18px;
   font-weight: bold;
 }
@@ -417,6 +418,7 @@ label.logo {
   
   #curriculoLbl {
     max-width: 380px;
+    font-size:16px;
   }
 
   .menu > ul {
@@ -476,10 +478,10 @@ label.logo {
     grid-template-areas: "status" "titulo" "cartao" "detalhes" !important;
     align-content: center !important;
   }
-  
+  /*
   .form-group > input {
     margin: 25px auto 0 auto !important;
-  }
+  }*/
   
   .form-group {
     margin: 30px auto 0 auto !important;
@@ -683,7 +685,7 @@ label.logo {
   }
 }
 
-@media(min-width: 768px) {
+@media(min-width: 810px) {
   .header {
     background-color: #8bc1c3;
     height: 100%;
@@ -730,7 +732,8 @@ label.logo {
       }
     
       .menu li:last-child {
-        margin-left: 25px;
+        margin-left: 10px;
+        margin-right: 10px:
       }
     
       .navigation__main {
@@ -738,10 +741,10 @@ label.logo {
         justify-content: space-between;
         align-items: center;
       }
-    
+    /*
       .navigation__main a {
         margin-left: 40px;
-      }
+      }*/
 
       #box-1 {
         background-color: #fbfbfb;;

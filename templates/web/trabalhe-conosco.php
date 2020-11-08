@@ -15,6 +15,8 @@
 				<?php include 'css/768-1200.css'; ?>
 				<?php include 'css/desktop.css'; ?>
 				<?php include 'css/menuhamburguer.css'; ?>
+				<?php include 'css/styleAgendamento.css'; ?>
+       			<?php include 'css/style.css'; ?>
 		</style>
 
 		<title>Trabalhe conosco</title>
@@ -76,7 +78,7 @@
         <div class="form-item-finalizar">
           <div>
             <input id="curriculo" type="file" placeholder="Anexe seu curriculo" required/>
-            <label for="curriculo" id="curriculoLbl" style="padding: 10px;">Anexe seu curriculo</label>
+            <label for="curriculo" id="curriculoLbl" style="padding: 10px;">Clique aqui para anexar seu curriculo</label>
           </div>
         </div>
   
